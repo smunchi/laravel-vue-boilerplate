@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Search07aResponse>
+    <SearchResult>
+        <jobdetails>
+            <searchid>{CCB95FE5-81DD-4F20-84EC-0F821084C42D}</searchid>
+            <cast>001.006.7.2.1.2.0.39705539.0</cast>
+            <pstv>39705539</pstv>
+            <ls>0</ls>
+            <searchdate>2018-01-22T15:16:37</searchdate>
+        </jobdetails>
+        <creditrequest schemaversion="7.2" datasets="255">
+            <applicant>
+                <address>
+                    <buildingno>72</buildingno>
+                    <street1>Arnold Road</street1>
+                    <street2/>
+                    <sublocality/>
+                    <posttown>Dagenham</posttown>
+                    <postcode>RM9 6AN</postcode>
+                </address>
+                <name>
+                    <title>Mr</title>
+                    <forename>Anowar</forename>
+                    <othernames/>
+                    <surname>Hosain</surname>
+                </name>
+                <dob>1983-09-08</dob>
+                <applicantdemographics>
+                    <contact>
+                        <email>
+                            <type>03</type>
+                            <address>abc@gmail.com</address>
+                        </email>
+                        <telephone>
+                            <type>13</type>
+                            <std>01234</std>
+                            <number>567890</number>
+                        </telephone>
+                        <telephone>
+                            <type>15</type>
+                            <std>07799</std>
+                            <number>567890</number>
+                        </telephone>
+                    </contact>
+                </applicantdemographics>
+            </applicant>
+            <score>1</score>
+            <purpose>CA</purpose>
+            <autosearch>0</autosearch>
+            <autosearchmaximum>3</autosearchmaximum>
+        </creditrequest>
+        <picklist maxaddressitems="20" maxnameitems="9" picklist="1" regenerated="0">
+            <applicant id="1" reporttype="3">
+                <address addressid="1">
+                    <addressinput>
+                        <abodeno/>
+                        <buildingno>72</buildingno>
+                        <buildingname/>
+                        <street1>Arnold Road</street1>
+                        <street2/>
+                        <sublocality/>
+                        <locality/>
+                        <posttown>Dagenham</posttown>
+                        <postcode>RM9 6AN</postcode>
+                    </addressinput>
+                    <fullmatches reporttype="3" matchstatus="2">
+                        <fullmatch selected="1">
+                            <addressmatch>
+                                <buildingno>72</buildingno>
+                                <street1>ARNOLD ROAD</street1>
+                                <posttown>DAGENHAM</posttown>
+                                <postcode>RM9 6AN</postcode>
+                                <domicileid>16616874</domicileid>
+                            </addressmatch>
+                            <name nameid="1">
+                                <nameinput>
+                                    <title>Mr</title>
+                                    <forename>Anowar</forename>
+                                    <othernames/>
+                                    <surname>Hosain</surname>
+                                </nameinput>
+                                <namematches reporttype="3" matchstatus="2">
+                                    <namematch selected="1">
+                                        <title>MR</title>
+                                        <forename>ANOWAR</forename>
+                                        <othernames>ANWAR</othernames>
+                                        <surname>HOSSAIN</surname>
+                                        <residenceid>275465999</residenceid>
+                                        <dob>1983-09-08</dob>
+                                    </namematch>
+                                </namematches>
+                            </name>
+                        </fullmatch>
+                    </fullmatches>
+                </address>
+            </applicant>
+        </picklist>
+        <creditreport searchid="{CCB95FE5-81DD-4F20-84EC-0F821084C42D}" linktype="0">
+            <applicant reporttype="3" tpoptout="0" ageflag="0" reporttitle="ANOWAR ANWAR HOSSAIN ">
+                <summary>
+                    <searches>
+                        <totalsearches3months>5</totalsearches3months>
+                        <totalsearches12months>5</totalsearches12months>
+                        <totalhomecreditsearches3months>0</totalhomecreditsearches3months>
+                    </searches>
+                    <judgments>
+                        <totalactive>0</totalactive>
+                        <totalsatisfied>0</totalsatisfied>
+                    </judgments>
+                    <bais>
+                        <totaldischarged>0</totaldischarged>
+                        <currentlyinsolvent>0</currentlyinsolvent>
+                        <restricted>0</restricted>
+                    </bais>
+                    <notices>
+                        <nocflag>0</nocflag>
+                        <totaldisputes>0</totaldisputes>
+                    </notices>
+                    <links>
+                        <totalundecaddresses>11</totalundecaddresses>
+                        <totalundecaliases>0</totalundecaliases>
+                        <totalundecassociates>1</totalundecassociates>
+                    </links>
+                    <share>
+                        <totalaccounts>12</totalaccounts>
+                        <totalactiveaccs>11</totalactiveaccs>
+                        <totalsettledaccs>1</totalsettledaccs>
+                        <totalopened6months>0</totalopened6months>
+                        <worsepaystatus12months>0</worsepaystatus12months>
+                        <worsepaystatus36months>U</worsepaystatus36months>
+                        <totaldelinqs12months>0</totaldelinqs12months>
+                        <totaldefaults12months>0</totaldefaults12months>
+                        <totaldefaults36months>0</totaldefaults36months>
+                    </share>
+                    <ich>
+                        <impairedcredit>0</impairedcredit>
+                        <secured>0</secured>
+                        <unsecured>0</unsecured>
+                        <judgment>0</judgment>
+                        <iva>0</iva>
+                        <boss>0</boss>
+                    </ich>
+                    <indebt>
+                        <totalbalancesactive>234716</totalbalancesactive>
+                        <totalbalancesrevolve>2044</totalbalancesrevolve>
+                        <balancelimitratiorevolve>7</balancelimitratiorevolve>
+                        <totallimitsrevolve>28750</totallimitsrevolve>
+                        <totalbalancesmortgages>232672</totalbalancesmortgages>
+                    </indebt>
+                    <tpd>
+                        <alertdecision>1</alertdecision>
+                        <alertreview>1</alertreview>
+                        <hho>1</hho>
+                    </tpd>
+                    <summaryaddress>
+                        <pafvalid>1</pafvalid>
+                        <rollingroll>0</rollingroll>
+                        <messagecode>1</messagecode>
+                    </summaryaddress>
+                    <address current="1" messagecode="1" id="1">72 ARNOLD ROAD, DAGENHAM RM9 6AN</address>
+                </summary>
+                <creditscores>
+                    <creditscore>
+                        <score class="2">573</score>
+                        <reasons>
+                            <code>302</code>
+                            <code>402</code>
+                            <code>0</code>
+                            <code>0</code>
+                        </reasons>
+                    </creditscore>
+                </creditscores>
+                <addressconfs>
+                    <addressconf pafvalid="1">
+                        <address current="1">72 ARNOLD ROAD, DAGENHAM RM9 6AN</address>
+                        <resident matchtype="IM" currentname="1" declaredalias="0">
+                            <name>ANOWAR ANWAR HOSSAIN</name>
+                            <duration>P25M</duration>
+                            <startdate>2015-12-01</startdate>
+                            <ervalid>1</ervalid>
+                            <erhistory>
+                                <startdate>2015-12-01</startdate>
+                                <optout>0</optout>
+                                <rollingroll>0</rollingroll>
+                            </erhistory>
+                        </resident>
+                        <resident matchtype="HM" currentname="0" declaredalias="0">
+                            <name>MD MUSTAFIZUR RAHMAN</name>
+                            <duration>P19M</duration>
+                            <startdate>2016-06-01</startdate>
+                            <ervalid>1</ervalid>
+                            <erhistory>
+                                <startdate>2016-06-01</startdate>
+                                <optout>1</optout>
+                                <rollingroll>0</rollingroll>
+                            </erhistory>
+                        </resident>
+                        <resident matchtype="HM" currentname="0" declaredalias="0">
+                            <name>TANZILA KHAN</name>
+                            <duration>P25M</duration>
+                            <startdate>2015-12-01</startdate>
+                            <ervalid>1</ervalid>
+                            <erhistory>
+                                <startdate>2015-12-01</startdate>
+                                <optout>1</optout>
+                                <rollingroll>0</rollingroll>
+                            </erhistory>
+                        </resident>
+                        <resident matchtype="HM" currentname="0" declaredalias="0">
+                            <name>MOUSHUMI HOSSAIN</name>
+                            <duration>P25M</duration>
+                            <startdate>2015-12-01</startdate>
+                            <ervalid>1</ervalid>
+                            <erhistory>
+                                <startdate>2015-12-01</startdate>
+                                <optout>0</optout>
+                                <rollingroll>0</rollingroll>
+                            </erhistory>
+                        </resident>
+                        <resident matchtype="HM" currentname="0" declaredalias="0">
+                            <name>MICHAEL ANTHONY WAKEFIELD</name>
+                            <duration>P15M</duration>
+                            <startdate>2015-09-01</startdate>
+                            <enddate>2016-12-01</enddate>
+                            <ervalid>3</ervalid>
+                            <erhistory>
+                                <startdate>2015-09-01</startdate>
+                                <enddate>2016-12-01</enddate>
+                                <optout>1</optout>
+                                <rollingroll>0</rollingroll>
+                            </erhistory>
+                            <erhistory>
+                                <startdate>2000-10-28</startdate>
+                                <enddate>2012-10-28</enddate>
+                                <optout>0</optout>
+                                <rollingroll>0</rollingroll>
+                            </erhistory>
+                        </resident>
+                        <resident matchtype="HM" currentname="0" declaredalias="0">
+                            <name>WAYNE DANIEL WAKEFIELD</name>
+                            <duration>P22M</duration>
+                            <startdate>2014-02-17</startdate>
+                            <enddate>2015-12-01</enddate>
+                            <ervalid>3</ervalid>
+                            <erhistory>
+                                <startdate>2014-02-17</startdate>
+                                <enddate>2015-12-01</enddate>
+                                <optout>0</optout>
+                                <rollingroll>0</rollingroll>
+                            </erhistory>
+                            <erhistory>
+                                <startdate>2002-10-28</startdate>
+                                <enddate>2010-10-28</enddate>
+                                <optout>0</optout>
+                                <rollingroll>0</rollingroll>
+                            </erhistory>
+                        </resident>
+                        <resident matchtype="HM" currentname="0" declaredalias="0">
+                            <name>ALAN D SWORD</name>
+                            <duration>P90M</duration>
+                            <startdate>2008-06-01</startdate>
+                            <enddate>2015-12-01</enddate>
+                            <ervalid>3</ervalid>
+                            <erhistory>
+                                <startdate>2008-06-01</startdate>
+                                <enddate>2015-12-01</enddate>
+                                <optout>0</optout>
+                                <rollingroll>0</rollingroll>
+                            </erhistory>
+                        </resident>
+                        <resident matchtype="HM" currentname="0" declaredalias="0">
+                            <name>RICHARD STEADMAN</name>
+                            <duration>P12M</duration>
+                            <startdate>2007-10-28</startdate>
+                            <enddate>2008-10-28</enddate>
+                            <ervalid>3</ervalid>
+                            <erhistory>
+                                <startdate>2007-10-28</startdate>
+                                <enddate>2008-10-28</enddate>
+                                <optout>0</optout>
+                                <rollingroll>0</rollingroll>
+                            </erhistory>
+                        </resident>
+                        <resident matchtype="HM" currentname="0" declaredalias="0">
+                            <name>SASCHA ELYSE WAKEFIELD</name>
+                            <duration>P122M</duration>
+                            <startdate>2005-10-28</startdate>
+                            <enddate>2015-12-01</enddate>
+                            <ervalid>3</ervalid>
+                            <erhistory>
+                                <startdate>2005-10-28</startdate>
+                                <enddate>2015-12-01</enddate>
+                                <optout>0</optout>
+                                <rollingroll>0</rollingroll>
+                            </erhistory>
+                        </resident>
+                        <resident matchtype="HM" currentname="0" declaredalias="0">
+                            <name>TERESA FRANCES STEADMAN</name>
+                            <duration>P398M</duration>
+                            <startdate>1982-10-28</startdate>
+                            <enddate>2015-12-01</enddate>
+                            <ervalid>3</ervalid>
+                            <erhistory>
+                                <startdate>1982-10-28</startdate>
+                                <enddate>2015-12-01</enddate>
+                                <optout>0</optout>
+                                <rollingroll>0</rollingroll>
+                            </erhistory>
+                        </resident>
+                    </addressconf>
+                </addressconfs>
+                <judgments/>
+                <bais/>
+                <searches>
+                    <search>
+                        <searchref>{F0B928A5-66EE-40D8-A280-AB6C9DE8011B}</searchref>
+                        <searchorgtype>OF</searchorgtype>
+                        <searchorgname>Fincap Finance Limited (SR, CVAL, AR)</searchorgname>
+                        <searchunitname>Fincap Finance Limited (SR BSB API)</searchunitname>
+                        <ownsearch>1</ownsearch>
+                        <subsequentenquiry>0</subsequentenquiry>
+                        <username>Fincap SR API Live</username>
+                        <searchpurpose>CA</searchpurpose>
+                        <term>0</term>
+                        <jointapplication>0</jointapplication>
+                        <searchdate>2018-01-22T15:14:14</searchdate>
+                        <name>Mr Anowar Hosain</name>
+                        <dob>1983-09-08</dob>
+                        <address current="1">72 Arnold Road, Dagenham RM9 6AN</address>
+                        <tpoptout>0</tpoptout>
+                        <transient>0</transient>
+                    </search>
+                    <search>
+                        <searchref>{22955858-490E-438F-859E-39A84ACA3054}</searchref>
+                        <searchorgtype>OF</searchorgtype>
+                        <searchorgname>Fincap Finance Limited (SR, CVAL, AR)</searchorgname>
+                        <searchunitname>Fincap Finance Limited (SR BSB API)</searchunitname>
+                        <ownsearch>1</ownsearch>
+                        <subsequentenquiry>0</subsequentenquiry>
+                        <username>Fincap SR API Live</username>
+                        <searchpurpose>CA</searchpurpose>
+                        <term>0</term>
+                        <jointapplication>0</jointapplication>
+                        <searchdate>2018-01-22T15:01:08</searchdate>
+                        <name>Mr Anowar Hosain</name>
+                        <dob>1983-09-08</dob>
+                        <address current="1">72 Arnold Road, Dagenham RM9 6AN</address>
+                        <tpoptout>0</tpoptout>
+                        <transient>0</transient>
+                    </search>
+                    <search>
+                        <searchref>{32CB7A05-538D-4E28-9B6F-EA55DCA10730}</searchref>
+                        <searchorgtype>OF</searchorgtype>
+                        <searchorgname>Fincap Finance Limited (SR, CVAL, AR)</searchorgname>
+                        <searchunitname>Fincap Finance Limited (SR BSB API)</searchunitname>
+                        <ownsearch>1</ownsearch>
+                        <subsequentenquiry>0</subsequentenquiry>
+                        <username>Fincap SR API Live</username>
+                        <searchpurpose>CA</searchpurpose>
+                        <term>0</term>
+                        <jointapplication>0</jointapplication>
+                        <searchdate>2018-01-22T14:53:18</searchdate>
+                        <name>Mr Anowar Hosain</name>
+                        <dob>1983-09-08</dob>
+                        <address current="1">72 Arnold Road, Dagenham RM9 6AN</address>
+                        <tpoptout>0</tpoptout>
+                        <transient>0</transient>
+                    </search>
+                    <search>
+                        <searchref>{8E128062-4023-4308-8F81-717EBDFEA3B2}</searchref>
+                        <searchorgtype>OF</searchorgtype>
+                        <searchorgname>Fincap Finance Limited (SR, CVAL, AR)</searchorgname>
+                        <searchunitname>Fincap Finance Limited (SR BSB API)</searchunitname>
+                        <ownsearch>1</ownsearch>
+                        <subsequentenquiry>0</subsequentenquiry>
+                        <username>Fincap SR API Live</username>
+                        <searchpurpose>CA</searchpurpose>
+                        <term>0</term>
+                        <jointapplication>0</jointapplication>
+                        <searchdate>2018-01-22T14:43:00</searchdate>
+                        <name>Mr Anowar Hosain</name>
+                        <dob>1983-09-08</dob>
+                        <address current="1">72 Arnold Road, Dagenham RM9 6AN</address>
+                        <tpoptout>0</tpoptout>
+                        <transient>0</transient>
+                    </search>
+                    <search>
+                        <searchref>{6EF84D92-F848-4A37-8797-A0FA69F0E13F}</searchref>
+                        <searchorgtype>OF</searchorgtype>
+                        <searchorgname>Fincap Finance Limited (SR, CVAL, AR)</searchorgname>
+                        <searchunitname>Fincap Finance Limited (SR BSB API)</searchunitname>
+                        <ownsearch>1</ownsearch>
+                        <subsequentenquiry>0</subsequentenquiry>
+                        <username>Fincap SR API Live</username>
+                        <searchpurpose>CA</searchpurpose>
+                        <term>0</term>
+                        <jointapplication>0</jointapplication>
+                        <searchdate>2018-01-22T14:42:58</searchdate>
+                        <name>Mr Anowar Hosain</name>
+                        <dob>1983-09-08</dob>
+                        <address current="1">72 Arnold Road, Dagenham RM9 6AN</address>
+                        <tpoptout>0</tpoptout>
+                        <transient>0</transient>
+                    </search>
+                    <search>
+                        <searchref>{5C6423F4-AD2B-41C8-AFFD-E69546A62BDC}</searchref>
+                        <searchorgtype>GI</searchorgtype>
+                        <ownsearch>0</ownsearch>
+                        <subsequentenquiry>0</subsequentenquiry>
+                        <searchpurpose>QS</searchpurpose>
+                        <term>0</term>
+                        <jointapplication>0</jointapplication>
+                        <searchdate>2017-10-28T11:22:41</searchdate>
+                        <name>Mr Anowar Hossain</name>
+                        <dob>1983-09-08</dob>
+                        <address current="1">72 Arnold Road, RM9 6AN</address>
+                        <tpoptout>1</tpoptout>
+                        <transient>0</transient>
+                    </search>
+                    <search>
+                        <searchref>{79368CDB-7863-4C77-87E2-88E8D0BDD4AC}</searchref>
+                        <searchorgtype>GI</searchorgtype>
+                        <ownsearch>0</ownsearch>
+                        <subsequentenquiry>0</subsequentenquiry>
+                        <searchpurpose>QS</searchpurpose>
+                        <term>0</term>
+                        <jointapplication>0</jointapplication>
+                        <searchdate>2017-02-23T09:19:12</searchdate>
+                        <name>Mr Anowar Hossain</name>
+                        <dob>1983-09-08</dob>
+                        <address current="1">72 Arnold Road, Essex, DAGENHAM RM9 6AN</address>
+                        <tpoptout>1</tpoptout>
+                        <transient>0</transient>
+                    </search>
+                    <search>
+                        <searchref>{ACB4D669-0E5C-4C12-A31D-19F06CC1E2AD}</searchref>
+                        <searchorgtype>GI</searchorgtype>
+                        <ownsearch>0</ownsearch>
+                        <subsequentenquiry>0</subsequentenquiry>
+                        <searchpurpose>QS</searchpurpose>
+                        <term>0</term>
+                        <jointapplication>0</jointapplication>
+                        <searchdate>2016-11-25T02:01:45</searchdate>
+                        <name>Mr Anowar Hossain</name>
+                        <dob>1983-09-08</dob>
+                        <address current="1">72 Arnold Road, RM9 6AN</address>
+                        <tpoptout>1</tpoptout>
+                        <transient>0</transient>
+                    </search>
+                    <search>
+                        <searchref>{7B2030A0-0A8B-4BF9-A41A-66803EAB4A82}</searchref>
+                        <searchorgtype>GI</searchorgtype>
+                        <ownsearch>0</ownsearch>
+                        <subsequentenquiry>0</subsequentenquiry>
+                        <searchpurpose>QS</searchpurpose>
+                        <term>0</term>
+                        <jointapplication>0</jointapplication>
+                        <searchdate>2016-03-05T13:52:44</searchdate>
+                        <name>Mr Anowar Hossain</name>
+                        <dob>1983-09-08</dob>
+                        <address current="1">72 Arnold Road, Essex, DAGENHAM RM9 6AN</address>
+                        <tpoptout>1</tpoptout>
+                        <transient>0</transient>
+                    </search>
+                </searches>
+                <addresslinks>
+                    <addresses>
+                        <address current="1" addressid="1" declared="1">72 ARNOLD ROAD, DAGENHAM, RM9 6AN
+                        </address>
+                        <address current="0" addressid="2" declared="0"
+                                 navlinkid="{DF43B5AC-4BE2-4367-9418-10DB6F84526F}">24 ST. MARGARETS AVENUE,
+                            HARROW, HA2 8DA
+                        </address>
+                        <address current="0" addressid="3" declared="0"
+                                 navlinkid="{0F870E88-5FE8-4B61-8871-411008015E0C}">19B STROUD GATE, HARROW, HA2
+                            8JL
+                        </address>
+                        <address current="0" addressid="4" declared="0"
+                                 navlinkid="{7547D5A6-1BC9-416B-AE42-6B3EB918407C}">261 BURGES ROAD, LONDON, E6
+                            2EU
+                        </address>
+                        <address current="0" addressid="5" declared="0"
+                                 navlinkid="{2472658B-3E2F-4C79-8DEC-598B1DC681E7}">8 DOLLIS HILL LANE, LONDON,
+                            NW2 6JE
+                        </address>
+                        <address current="0" addressid="6" declared="0"
+                                 navlinkid="{E8B8010C-BD43-463B-A521-451781DC9F48}">53, GRAVESHAM COURT,
+                            CLARENCE ROW, GRAVESEND, DA12 1HN
+                        </address>
+                        <address current="0" addressid="7" declared="0"
+                                 navlinkid="{0C1ED816-466F-4A99-8E9B-E185F4B7E8F5}">101 WEST CRESCENT ROAD,
+                            GRAVESEND, DA12 2AB
+                        </address>
+                        <address current="0" addressid="8" declared="0"
+                                 navlinkid="{4E1E969D-A2DF-4B2E-B8A0-47C0091669E2}">FLAT 2, 154 PARROCK STREET,
+                            GRAVESEND, DA12 1ER
+                        </address>
+                        <address current="0" addressid="9" declared="0"
+                                 navlinkid="{B7036908-DC22-4BAD-8C21-BA6E47F32283}">116A, BARCLAY HOUSE, BURNT
+                            OAK BROADWAY, EDGWARE, HA8 0BB
+                        </address>
+                        <address current="0" addressid="10" declared="0"
+                                 navlinkid="{8DB1AC78-58D5-4433-BCDC-F79BEB875ABA}">5 COBORN ROAD, LONDON, E3
+                            2DA
+                        </address>
+                        <address current="0" addressid="11" declared="0"
+                                 navlinkid="{ECAC9569-F2B3-4197-BA00-97D8A5F6ACAB}">116 BURNT OAK BROADWAY,
+                            EDGWARE, HA8 0BB
+                        </address>
+                        <address current="0" addressid="12" declared="0"
+                                 navlinkid="{9DA484A0-1840-42BF-9E2B-413F3A153F48}">91 PORTIA WAY, LONDON, E3
+                            4JQ
+                        </address>
+                    </addresses>
+                    <links>
+                        <link from="2" to="1">
+                            <creationdate>2015-10-31</creationdate>
+                            <lastconfdate>2017-04-01</lastconfdate>
+                            <supplierdetails>
+                                <suppliertypecode>TC</suppliertypecode>
+                            </supplierdetails>
+                        </link>
+                        <link from="3" to="2">
+                            <creationdate>2014-02-28</creationdate>
+                            <lastconfdate>2014-04-30</lastconfdate>
+                            <supplierdetails>
+                                <suppliertypecode>FN</suppliertypecode>
+                            </supplierdetails>
+                        </link>
+                        <link from="5" to="3">
+                            <creationdate>2013-04-01</creationdate>
+                            <lastconfdate>2013-04-01</lastconfdate>
+                            <supplierdetails>
+                                <suppliertypecode>TC</suppliertypecode>
+                            </supplierdetails>
+                        </link>
+                        <link from="9" to="3">
+                            <creationdate>2012-09-30</creationdate>
+                            <lastconfdate>2013-06-30</lastconfdate>
+                            <supplierdetails>
+                                <suppliertypecode>BK</suppliertypecode>
+                            </supplierdetails>
+                        </link>
+                        <link from="9" to="4">
+                            <creationdate>2012-03-01</creationdate>
+                            <lastconfdate>2012-03-01</lastconfdate>
+                            <supplierdetails>
+                                <suppliertypecode>TC</suppliertypecode>
+                            </supplierdetails>
+                        </link>
+                        <link from="6" to="5">
+                            <creationdate>2012-02-01</creationdate>
+                            <lastconfdate>2012-05-01</lastconfdate>
+                            <supplierdetails>
+                                <suppliertypecode>TC</suppliertypecode>
+                            </supplierdetails>
+                        </link>
+                        <link from="9" to="5">
+                            <creationdate>2012-01-31</creationdate>
+                            <lastconfdate>2012-01-31</lastconfdate>
+                            <supplierdetails>
+                                <suppliertypecode>BK</suppliertypecode>
+                            </supplierdetails>
+                        </link>
+                        <link from="6" to="9">
+                            <creationdate>2011-11-30</creationdate>
+                            <lastconfdate>2011-11-30</lastconfdate>
+                            <supplierdetails>
+                                <suppliertypecode>BK</suppliertypecode>
+                            </supplierdetails>
+                        </link>
+                        <link from="7" to="6">
+                            <creationdate>2011-04-30</creationdate>
+                            <lastconfdate>2011-06-30</lastconfdate>
+                            <supplierdetails>
+                                <suppliertypecode>BK</suppliertypecode>
+                            </supplierdetails>
+                        </link>
+                        <link from="8" to="7">
+                            <creationdate>2010-10-31</creationdate>
+                            <lastconfdate>2010-11-01</lastconfdate>
+                            <supplierdetails>
+                                <suppliertypecode>BK</suppliertypecode>
+                            </supplierdetails>
+                        </link>
+                        <link from="9" to="8">
+                            <creationdate>2010-04-29</creationdate>
+                            <lastconfdate>2010-05-01</lastconfdate>
+                            <supplierdetails>
+                                <suppliertypecode>TC</suppliertypecode>
+                            </supplierdetails>
+                        </link>
+                        <link from="11" to="9">
+                            <creationdate>2009-05-31</creationdate>
+                            <lastconfdate>2009-06-30</lastconfdate>
+                            <supplierdetails>
+                                <suppliertypecode>BK</suppliertypecode>
+                            </supplierdetails>
+                        </link>
+                        <link from="10" to="11">
+                            <creationdate>2008-02-07</creationdate>
+                            <lastconfdate>2008-02-07</lastconfdate>
+                            <supplierdetails>
+                                <suppliertypecode>BK</suppliertypecode>
+                            </supplierdetails>
+                        </link>
+                        <link from="12" to="11">
+                            <creationdate>2007-11-01</creationdate>
+                            <lastconfdate>2007-11-01</lastconfdate>
+                            <supplierdetails>
+                                <suppliertypecode>BK</suppliertypecode>
+                            </supplierdetails>
+                        </link>
+                    </links>
+                </addresslinks>
+                <aliaslinks/>
+                <associatelinks>
+                    <associatelink declaredaddress="0">
+                        <navlinkid>{57DE7E2A-6540-4820-ABD3-83B4F34A146D}</navlinkid>
+                        <name>MRS SHIRIN AKTER</name>
+                        <creationdate>2017-07-31</creationdate>
+                        <lastconfdate>2017-07-31</lastconfdate>
+                        <supplierdetails>
+                            <suppliertypecode>BK</suppliertypecode>
+                        </supplierdetails>
+                    </associatelink>
+                </associatelinks>
+                <accs>
+                    <acc>
+                        <supplierdetails>
+                            <suppliertypecode>FN</suppliertypecode>
+                        </supplierdetails>
+                        <accholderdetails>
+                            <name>MR ANOWAR HOSSAIN</name>
+                            <address current="1">72 ARNOLD ROAD;;DAGENHAM;ESSEX;;;; RM96AN</address>
+                            <dob>1983-09-08</dob>
+                            <statuscode>N</statuscode>
+                            <startdate>2013-09-28</startdate>
+                            <enddate>2017-08-17</enddate>
+                        </accholderdetails>
+                        <acchistory>
+                            <ah m="2017-08" bal="0" acc="ST" pay="0"/>
+                            <ah m="2017-07" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2017-06" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2017-05" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2017-04" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2017-03" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2017-02" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2017-01" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2016-12" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2016-11" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2016-10" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2016-09" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2016-08" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2016-07" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2016-06" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2016-05" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2016-04" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2016-03" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2016-02" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2016-01" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2015-12" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2015-11" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2015-10" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2015-09" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2015-08" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2015-07" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2015-06" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2015-05" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2015-04" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2015-03" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2015-02" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2015-01" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2014-12" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2014-11" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2014-10" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2014-09" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2014-08" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2014-07" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2014-06" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2014-05" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2014-04" bal="0" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2014-03" bal="2" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2014-02" bal="7" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2014-01" bal="15" limit="5000" acc="OK" pay="0"/>
+                            <ah m="2013-12" bal="0" limit="5000" acc="UC" pay="U"/>
+                            <ah m="2013-11" bal="0" limit="5000" acc="UC" pay="U"/>
+                            <ah m="2013-10" bal="0" limit="5000" acc="UC" pay="U"/>
+                            <ah m="2013-09" bal="0" limit="5000" acc="UC" pay="U"/>
+                        </acchistory>
+                        <accdetails>
+                            <joint>0</joint>
+                            <status>S</status>
+                            <dateupdated>2017-08-31</dateupdated>
+                            <acctypecode>CC</acctypecode>
+                            <accgroupid>3</accgroupid>
+                            <currencycode>GBP</currencycode>
+                            <balance>0</balance>
+                            <openbalance>0</openbalance>
+                            <paystartdate>2013-09-28</paystartdate>
+                            <accstartdate>2013-09-28</accstartdate>
+                            <accenddate>2017-08-17</accenddate>
+                            <repayfreqcode>M</repayfreqcode>
+                            <lumppayment>0</lumppayment>
+                        </accdetails>
+                    </acc>
+                    <acc>
+                        <supplierdetails>
+                            <suppliertypecode>BK</suppliertypecode>
+                        </supplierdetails>
+                        <accholderdetails>
+                            <name>MR ANOWAR HOSSAIN</name>
+                            <address current="1">72 ARNOLD ROAD;DAGENHAM;ESSEX;;;;; RM9 6AN</address>
+                            <dob>1983-09-08</dob>
+                            <statuscode>N</statuscode>
+                            <startdate>2007-05-14</startdate>
+                        </accholderdetails>
+                        <acchistory>
+                            <ah m="2017-11" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2017-10" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2017-09" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2017-08" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2017-07" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2017-06" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2017-05" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2017-04" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2017-03" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2017-02" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2017-01" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2016-12" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2016-11" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2016-10" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2016-09" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2016-08" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2016-07" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2016-06" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2016-05" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2016-04" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2016-03" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2016-02" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2016-01" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2015-12" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2015-11" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2015-10" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2015-09" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2015-08" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2015-07" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2015-06" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2015-05" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2015-04" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2015-03" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2015-02" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2015-01" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2014-12" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2014-11" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2014-10" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2014-09" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2014-08" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2014-07" bal="0" limit="250" acc="OK" pay="0"/>
+                            <ah m="2014-06" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2014-05" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2014-04" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2014-03" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2014-02" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2014-01" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2013-12" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2013-11" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2013-10" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2013-09" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2013-08" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2013-07" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2013-06" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2013-05" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2013-04" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2013-03" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2013-02" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2013-01" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2012-12" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2012-11" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2012-10" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2012-09" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2012-08" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2012-07" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2012-06" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2012-05" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2012-04" bal="369" limit="500" acc="OK" pay="0"/>
+                            <ah m="2012-03" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2012-02" bal="0" limit="500" acc="OK" pay="0"/>
+                            <ah m="2012-01" bal="0" limit="500" acc="OK" pay="0"/>
+                        </acchistory>
+                        <accdetails>
+                            <joint>0</joint>
+                            <status>N</status>
+                            <dateupdated>2017-11-30</dateupdated>
+                            <acctypecode>CA</acctypecode>
+                            <accgroupid>7</accgroupid>
+                            <currencycode>GBP</currencycode>
+                            <balance>0</balance>
+                            <limit>250</limit>
+                            <openbalance>0</openbalance>
+                            <paystartdate>2007-05-14</paystartdate>
+                            <accstartdate>2007-05-14</accstartdate>
+                            <repayfreqcode>M</repayfreqcode>
+                            <lumppayment>0</lumppayment>
+                        </accdetails>
+                    </acc>
+                    <acc>
+                        <supplierdetails>
+                            <suppliertypecode>CC</suppliertypecode>
+                        </supplierdetails>
+                        <accholderdetails>
+                            <name>MR ANOWAR HOSSAIN</name>
+                            <address current="1">72 ARNOLD ROAD;;;DAGENHAM;;;; RM9 6AN</address>
+                            <dob>1983-09-08</dob>
+                            <statuscode>N</statuscode>
+                            <startdate>2014-08-22</startdate>
+                        </accholderdetails>
+                        <acchistory>
+                            <ah m="2017-12" bal="428" limit="7400" acc="OK" pay="0"/>
+                            <ah m="2017-11" bal="316" limit="7400" acc="OK" pay="0"/>
+                            <ah m="2017-10" bal="1898" limit="7400" acc="OK" pay="0"/>
+                            <ah m="2017-09" bal="2941" limit="7400" acc="OK" pay="0"/>
+                            <ah m="2017-08" bal="720" limit="7400" acc="OK" pay="0"/>
+                            <ah m="2017-07" bal="909" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2017-06" bal="892" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2017-05" bal="561" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2017-04" bal="1644" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2017-03" bal="761" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2017-02" bal="473" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2017-01" bal="177" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2016-12" bal="226" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2016-11" bal="407" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2016-10" bal="967" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2016-09" bal="1011" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2016-08" bal="1148" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2016-07" bal="1207" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2016-06" bal="1582" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2016-05" bal="1014" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2016-04" bal="816" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2016-03" bal="1567" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2016-02" bal="349" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2016-01" bal="700" limit="6200" acc="OK" pay="0"/>
+                            <ah m="2015-12" bal="443" limit="4000" acc="OK" pay="0"/>
+                            <ah m="2015-11" bal="780" limit="4000" acc="OK" pay="0"/>
+                            <ah m="2015-10" bal="1059" limit="4000" acc="OK" pay="0"/>
+                            <ah m="2015-09" bal="-219" limit="4000" acc="OK" pay="0"/>
+                            <ah m="2015-08" bal="577" limit="4000" acc="OK" pay="0"/>
+                            <ah m="2015-07" bal="363" limit="4000" acc="OK" pay="0"/>
+                            <ah m="2015-06" bal="104" limit="4000" acc="OK" pay="0"/>
+                            <ah m="2015-05" bal="275" limit="2000" acc="OK" pay="0"/>
+                            <ah m="2015-04" bal="60" limit="2000" acc="OK" pay="0"/>
+                            <ah m="2015-03" bal="387" limit="2000" acc="OK" pay="0"/>
+                            <ah m="2015-02" bal="0" limit="2000" acc="OK" pay="0"/>
+                            <ah m="2015-01" bal="93" limit="2000" acc="OK" pay="0"/>
+                            <ah m="2014-12" bal="180" limit="1000" acc="OK" pay="0"/>
+                            <ah m="2014-11" bal="10" limit="1000" acc="OK" pay="0"/>
+                            <ah m="2014-10" bal="123" limit="1000" acc="OK" pay="0"/>
+                            <ah m="2014-09" bal="18" limit="1000" acc="OK" pay="0"/>
+                        </acchistory>
+                        <accdetails>
+                            <joint>0</joint>
+                            <status>N</status>
+                            <dateupdated>2017-12-31</dateupdated>
+                            <acctypecode>CC</acctypecode>
+                            <accgroupid>3</accgroupid>
+                            <currencycode>GBP</currencycode>
+                            <balance>428</balance>
+                            <limit>7400</limit>
+                            <openbalance>18</openbalance>
+                            <paystartdate>2014-08-22</paystartdate>
+                            <accstartdate>2014-08-22</accstartdate>
+                            <repayfreqcode>M</repayfreqcode>
+                            <lumppayment>0</lumppayment>
+                        </accdetails>
+                    </acc>
+                    <acc>
+                        <supplierdetails>
+                            <suppliertypecode>BS</suppliertypecode>
+                        </supplierdetails>
+                        <accholderdetails>
+                            <name>MR ANOWAR HOSSAIN</name>
+                            <address current="1">72 ARNOLD ROAD;DAGENHAM;ESSEX;;;;; RM9 6AN</address>
+                            <dob>1983-09-08</dob>
+                            <statuscode>N</statuscode>
+                            <startdate>2015-10-07</startdate>
+                        </accholderdetails>
+                        <acchistory>
+                            <ah m="2018-01" bal="232672" acc="OK" pay="0"/>
+                            <ah m="2017-12" bal="233407" acc="OK" pay="0"/>
+                            <ah m="2017-11" bal="234149" acc="OK" pay="0"/>
+                            <ah m="2017-10" bal="239742" acc="OK" pay="0"/>
+                            <ah m="2017-09" bal="240343" acc="OK" pay="0"/>
+                            <ah m="2017-08" bal="240921" acc="OK" pay="0"/>
+                            <ah m="2017-07" bal="241499" acc="OK" pay="0"/>
+                            <ah m="2017-06" bal="242095" acc="OK" pay="0"/>
+                            <ah m="2017-05" bal="242669" acc="OK" pay="0"/>
+                            <ah m="2017-04" bal="243262" acc="OK" pay="0"/>
+                            <ah m="2017-03" bal="243834" acc="OK" pay="0"/>
+                            <ah m="2017-02" bal="244466" acc="OK" pay="0"/>
+                            <ah m="2017-01" bal="245033" acc="OK" pay="0"/>
+                            <ah m="2016-12" bal="245600" acc="OK" pay="0"/>
+                            <ah m="2016-11" bal="246186" acc="OK" pay="0"/>
+                            <ah m="2016-10" bal="246749" acc="OK" pay="0"/>
+                            <ah m="2016-09" bal="247332" acc="OK" pay="0"/>
+                            <ah m="2016-08" bal="247892" acc="OK" pay="0"/>
+                            <ah m="2016-07" bal="248451" acc="OK" pay="0"/>
+                            <ah m="2016-06" bal="249030" acc="OK" pay="0"/>
+                            <ah m="2016-05" bal="249585" acc="OK" pay="0"/>
+                            <ah m="2016-04" bal="250161" acc="OK" pay="0"/>
+                            <ah m="2016-03" bal="250714" acc="OK" pay="0"/>
+                            <ah m="2016-02" bal="251329" acc="OK" pay="0"/>
+                            <ah m="2016-01" bal="251878" acc="OK" pay="0"/>
+                            <ah m="2015-12" bal="252427" acc="OK" pay="0"/>
+                            <ah m="2015-11" bal="253540" acc="UC" pay="U"/>
+                        </acchistory>
+                        <accdetails>
+                            <joint>0</joint>
+                            <status>N</status>
+                            <dateupdated>2018-01-02</dateupdated>
+                            <acctypecode>MG</acctypecode>
+                            <accgroupid>2</accgroupid>
+                            <currencycode>GBP</currencycode>
+                            <balance>232672</balance>
+                            <openbalance>253540</openbalance>
+                            <paystartdate>2015-10-07</paystartdate>
+                            <accstartdate>2015-10-07</accstartdate>
+                            <regpayment>970</regpayment>
+                            <repayperiod>300</repayperiod>
+                            <repayfreqcode>M</repayfreqcode>
+                            <lumppayment>0</lumppayment>
+                        </accdetails>
+                    </acc>
+                    <acc>
+                        <supplierdetails>
+                            <suppliertypecode>BK</suppliertypecode>
+                        </supplierdetails>
+                        <accholderdetails>
+                            <name>MR ANOWAR HOSSAIN</name>
+                            <address current="1">72 ARNOLD ROAD;DAGENHAM;ESSEX;;;;; RM9 6AN</address>
+                            <dob>1983-09-08</dob>
+                            <statuscode>N</statuscode>
+                            <startdate>2010-11-20</startdate>
+                        </accholderdetails>
+                        <acchistory>
+                            <ah m="2017-11" bal="0" limit="600" acc="OK" pay="0"/>
+                            <ah m="2017-10" bal="0" limit="600" acc="OK" pay="0"/>
+                            <ah m="2017-09" bal="0" limit="600" acc="OK" pay="0"/>
+                            <ah m="2017-08" bal="0" limit="600" acc="OK" pay="0"/>
+                            <ah m="2017-07" bal="0" limit="600" acc="OK" pay="0"/>
+                            <ah m="2017-06" bal="0" limit="600" acc="OK" pay="0"/>
+                            <ah m="2017-05" bal="0" limit="600" acc="OK" pay="0"/>
+                            <ah m="2017-04" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2017-03" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2017-02" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2017-01" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2016-12" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2016-11" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2016-10" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2016-09" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2016-08" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2016-07" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2016-06" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2016-05" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2016-04" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2016-03" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2016-02" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2016-01" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2015-12" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2015-11" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2015-10" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2015-09" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2015-08" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2015-07" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2015-06" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2015-05" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2015-04" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2015-03" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2015-02" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2015-01" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2014-12" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2014-11" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2014-10" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2014-09" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2014-08" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2014-07" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2014-06" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2014-05" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2014-04" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2014-03" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2014-02" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2014-01" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2013-12" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2013-11" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2013-10" bal="1650" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2013-09" bal="1600" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2013-08" bal="908" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2013-07" bal="1001" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2013-06" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2013-05" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2013-04" bal="902" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2013-03" bal="2634" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2013-02" bal="1881" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2013-01" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2012-12" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2012-11" bal="1619" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2012-10" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2012-09" bal="1669" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2012-08" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2012-07" bal="2557" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2012-06" bal="511" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2012-05" bal="1830" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2012-04" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2012-03" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2012-02" bal="0" limit="2800" acc="OK" pay="0"/>
+                            <ah m="2012-01" bal="0" limit="100" acc="OK" pay="0"/>
+                        </acchistory>
+                        <accdetails>
+                            <joint>0</joint>
+                            <status>N</status>
+                            <dateupdated>2017-11-30</dateupdated>
+                            <acctypecode>CA</acctypecode>
+                            <accgroupid>7</accgroupid>
+                            <currencycode>GBP</currencycode>
+                            <balance>0</balance>
+                            <limit>600</limit>
+                            <openbalance>0</openbalance>
+                            <paystartdate>2010-11-20</paystartdate>
+                            <accstartdate>2010-11-20</accstartdate>
+                            <repayfreqcode>M</repayfreqcode>
+                            <lumppayment>0</lumppayment>
+                        </accdetails>
+                    </acc>
+                    <acc>
+                        <supplierdetails>
+                            <suppliertypecode>BK</suppliertypecode>
+                        </supplierdetails>
+                        <accholderdetails>
+                            <name>MR ANOWAR HOSSAIN</name>
+                            <address current="1">72 ARNOLD ROAD;DAGENHAM;ESSEX;;;;; RM9 6AN</address>
+                            <dob>1983-09-08</dob>
+                            <statuscode>N</statuscode>
+                            <startdate>2009-04-08</startdate>
+                        </accholderdetails>
+                        <acchistory>
+                            <ah m="2017-11" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-10" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-09" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-08" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-07" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-06" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-05" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-04" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-03" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-02" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-01" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-12" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-11" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-10" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-09" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-08" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-07" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-06" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-05" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-04" bal="0" limit="0" acc="OK" pay="0"/>
+                        </acchistory>
+                        <accdetails>
+                            <joint>0</joint>
+                            <status>N</status>
+                            <dateupdated>2017-11-30</dateupdated>
+                            <acctypecode>CA</acctypecode>
+                            <accgroupid>7</accgroupid>
+                            <currencycode>GBP</currencycode>
+                            <balance>0</balance>
+                            <limit>0</limit>
+                            <openbalance>0</openbalance>
+                            <paystartdate>2009-04-08</paystartdate>
+                            <accstartdate>2009-04-08</accstartdate>
+                            <repayfreqcode>M</repayfreqcode>
+                            <lumppayment>0</lumppayment>
+                        </accdetails>
+                    </acc>
+                    <acc>
+                        <supplierdetails>
+                            <suppliertypecode>BK</suppliertypecode>
+                        </supplierdetails>
+                        <accholderdetails>
+                            <name>MR ANOWAR HOSSAIN</name>
+                            <address current="1">72 ARNOLD ROAD;DAGENHAM;ESSEX;;;;; RM9 6AN</address>
+                            <dob>1983-09-08</dob>
+                            <statuscode>N</statuscode>
+                            <startdate>2008-05-20</startdate>
+                        </accholderdetails>
+                        <acchistory>
+                            <ah m="2017-12" bal="24" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2017-11" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2017-10" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2017-09" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2017-08" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2017-07" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2017-06" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2017-05" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2017-04" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2017-03" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2017-02" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2017-01" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2016-12" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2016-11" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2016-10" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2016-09" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2016-08" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2016-07" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2016-06" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2016-05" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2016-04" bal="-1" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2016-03" bal="0" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2016-02" bal="62" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2016-01" bal="157" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2015-12" bal="249" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2015-11" bal="341" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2015-10" bal="429" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2015-09" bal="516" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2015-08" bal="602" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2015-07" bal="684" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2015-06" bal="766" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2015-05" bal="847" limit="4550" acc="OK" pay="0"/>
+                            <ah m="2015-04" bal="924" limit="3050" acc="OK" pay="0"/>
+                            <ah m="2015-03" bal="1001" limit="3050" acc="OK" pay="0"/>
+                            <ah m="2015-02" bal="1078" limit="3050" acc="OK" pay="0"/>
+                            <ah m="2015-01" bal="1150" limit="3050" acc="OK" pay="0"/>
+                            <ah m="2014-12" bal="1221" limit="3050" acc="OK" pay="0"/>
+                            <ah m="2014-11" bal="1293" limit="2300" acc="OK" pay="0"/>
+                            <ah m="2014-10" bal="1359" limit="2300" acc="OK" pay="0"/>
+                            <ah m="2014-09" bal="1436" limit="2300" acc="OK" pay="0"/>
+                            <ah m="2014-08" bal="1535" limit="2300" acc="OK" pay="0"/>
+                            <ah m="2014-07" bal="1635" limit="2300" acc="OK" pay="0"/>
+                            <ah m="2014-06" bal="1735" limit="2300" acc="OK" pay="0"/>
+                            <ah m="2014-05" bal="1821" limit="2300" acc="OK" pay="0"/>
+                            <ah m="2014-04" bal="1781" limit="2300" acc="OK" pay="0"/>
+                            <ah m="2014-03" bal="2011" limit="2300" acc="OK" pay="0"/>
+                            <ah m="2014-02" bal="2168" limit="2300" acc="OK" pay="0"/>
+                            <ah m="2014-01" bal="2118" limit="2300" acc="OK" pay="0"/>
+                            <ah m="2013-12" bal="2215" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2013-11" bal="2210" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2013-10" bal="2305" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2013-09" bal="2300" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2013-08" bal="241" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2013-07" bal="242" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2013-06" bal="243" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2013-05" bal="244" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2013-04" bal="246" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2013-03" bal="247" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2013-02" bal="256" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2013-01" bal="250" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2012-12" bal="251" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2012-11" bal="252" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2012-10" bal="253" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2012-09" bal="255" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2012-08" bal="256" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2012-07" bal="257" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2012-06" bal="263" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2012-05" bal="0" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2012-04" bal="0" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2012-03" bal="0" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2012-02" bal="3363" limit="3600" acc="OK" pay="0"/>
+                            <ah m="2012-01" bal="3432" limit="4750" acc="OK" pay="0"/>
+                        </acchistory>
+                        <accdetails>
+                            <joint>0</joint>
+                            <status>N</status>
+                            <dateupdated>2017-12-31</dateupdated>
+                            <acctypecode>CC</acctypecode>
+                            <accgroupid>3</accgroupid>
+                            <currencycode>GBP</currencycode>
+                            <balance>24</balance>
+                            <limit>4550</limit>
+                            <openbalance>0</openbalance>
+                            <paystartdate>2008-05-20</paystartdate>
+                            <accstartdate>2008-05-20</accstartdate>
+                            <repayfreqcode>M</repayfreqcode>
+                            <lumppayment>0</lumppayment>
+                        </accdetails>
+                    </acc>
+                    <acc>
+                        <supplierdetails>
+                            <suppliertypecode>TC</suppliertypecode>
+                        </supplierdetails>
+                        <accholderdetails>
+                            <name>MR ANOWAR HOSSAIN</name>
+                            <address current="1">72 ARNOLD ROAD;;DAGGENMAN;ESSEX RM9 6AN</address>
+                            <dob>1983-09-08</dob>
+                            <statuscode>N</statuscode>
+                            <startdate>2014-03-21</startdate>
+                        </accholderdetails>
+                        <acchistory>
+                            <ah m="2018-01" bal="0" acc="OK" pay="0"/>
+                            <ah m="2017-12" bal="0" acc="OK" pay="0"/>
+                            <ah m="2017-11" bal="0" acc="OK" pay="0"/>
+                            <ah m="2017-10" bal="0" acc="OK" pay="0"/>
+                            <ah m="2017-09" bal="0" acc="OK" pay="0"/>
+                            <ah m="2017-08" bal="0" acc="OK" pay="0"/>
+                            <ah m="2017-07" bal="0" acc="OK" pay="0"/>
+                            <ah m="2017-06" bal="0" acc="OK" pay="0"/>
+                            <ah m="2017-05" bal="0" acc="OK" pay="0"/>
+                            <ah m="2017-04" bal="0" acc="OK" pay="0"/>
+                            <ah m="2017-03" bal="0" acc="OK" pay="0"/>
+                            <ah m="2017-02" bal="0" acc="OK" pay="0"/>
+                            <ah m="2017-01" bal="0" acc="OK" pay="0"/>
+                            <ah m="2016-12" bal="0" acc="OK" pay="0"/>
+                            <ah m="2016-11" bal="0" acc="OK" pay="0"/>
+                            <ah m="2016-10" bal="0" acc="OK" pay="0"/>
+                            <ah m="2016-09" bal="0" acc="OK" pay="0"/>
+                            <ah m="2016-08" bal="0" acc="OK" pay="0"/>
+                            <ah m="2016-07" bal="0" acc="OK" pay="0"/>
+                            <ah m="2016-06" bal="0" acc="OK" pay="0"/>
+                            <ah m="2016-05" bal="0" acc="OK" pay="0"/>
+                            <ah m="2016-04" bal="0" acc="OK" pay="0"/>
+                            <ah m="2016-03" bal="0" acc="OK" pay="0"/>
+                            <ah m="2016-02" bal="0" acc="OK" pay="0"/>
+                            <ah m="2016-01" bal="0" acc="OK" pay="0"/>
+                            <ah m="2015-12" bal="0" acc="OK" pay="0"/>
+                            <ah m="2015-11" bal="0" acc="OK" pay="0"/>
+                            <ah m="2015-10" bal="0" acc="OK" pay="0"/>
+                            <ah m="2015-09" bal="0" acc="OK" pay="0"/>
+                            <ah m="2015-08" bal="0" acc="OK" pay="0"/>
+                            <ah m="2015-07" bal="0" acc="OK" pay="0"/>
+                            <ah m="2015-06" bal="0" acc="OK" pay="0"/>
+                            <ah m="2015-05" bal="0" acc="OK" pay="0"/>
+                            <ah m="2015-04" bal="0" acc="OK" pay="0"/>
+                            <ah m="2015-03" bal="0" acc="OK" pay="0"/>
+                            <ah m="2015-02" bal="0" acc="OK" pay="0"/>
+                            <ah m="2015-01" bal="0" acc="OK" pay="0"/>
+                            <ah m="2014-12" bal="0" acc="OK" pay="0"/>
+                            <ah m="2014-11" bal="0" acc="OK" pay="0"/>
+                            <ah m="2014-10" bal="0" acc="OK" pay="0"/>
+                            <ah m="2014-09" bal="0" acc="OK" pay="0"/>
+                            <ah m="2014-08" bal="0" acc="OK" pay="0"/>
+                            <ah m="2014-07" bal="0" acc="OK" pay="0"/>
+                            <ah m="2014-06" bal="0" acc="OK" pay="0"/>
+                            <ah m="2014-05" bal="0" acc="OK" pay="0"/>
+                            <ah m="2014-04" bal="0" acc="OK" pay="0"/>
+                        </acchistory>
+                        <accdetails>
+                            <joint>0</joint>
+                            <status>N</status>
+                            <dateupdated>2018-01-01</dateupdated>
+                            <acctypecode>TM</acctypecode>
+                            <accgroupid>4</accgroupid>
+                            <currencycode>GBP</currencycode>
+                            <balance>0</balance>
+                            <paystartdate>2014-03-21</paystartdate>
+                            <accstartdate>2014-03-21</accstartdate>
+                            <repayfreqcode>M</repayfreqcode>
+                            <lumppayment>0</lumppayment>
+                        </accdetails>
+                    </acc>
+                    <acc>
+                        <supplierdetails>
+                            <suppliertypecode>BK</suppliertypecode>
+                        </supplierdetails>
+                        <accholderdetails>
+                            <name>MR ANOWAR HOSSAIN</name>
+                            <address current="1">72 ARNOLD ROAD;DAGENHAM;ESSEX;;;;; RM9 6AN</address>
+                            <dob>1983-09-08</dob>
+                            <statuscode>N</statuscode>
+                            <startdate>2013-05-28</startdate>
+                        </accholderdetails>
+                        <acchistory>
+                            <ah m="2017-12" bal="1010" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2017-11" bal="1235" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2017-10" bal="1460" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2017-09" bal="1685" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2017-08" bal="1910" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2017-07" bal="2135" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2017-06" bal="2360" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2017-05" bal="2586" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2017-04" bal="2815" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2017-03" bal="237" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2017-02" bal="737" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2017-01" bal="1237" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2016-12" bal="1737" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2016-11" bal="2237" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2016-10" bal="2739" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2016-09" bal="3247" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2016-08" bal="3760" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2016-07" bal="4277" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2016-06" bal="4800" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2016-05" bal="5329" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2016-04" bal="5382" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2016-03" bal="5437" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2016-02" bal="5496" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2016-01" bal="6037" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2015-12" bal="6578" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2015-11" bal="1357" limit="7900" acc="OK" pay="0"/>
+                            <ah m="2015-10" bal="1857" limit="6000" acc="OK" pay="0"/>
+                            <ah m="2015-09" bal="2361" limit="6000" acc="OK" pay="0"/>
+                            <ah m="2015-08" bal="2870" limit="6000" acc="OK" pay="0"/>
+                            <ah m="2015-07" bal="3361" limit="6000" acc="OK" pay="0"/>
+                            <ah m="2015-06" bal="3857" limit="6000" acc="OK" pay="0"/>
+                            <ah m="2015-05" bal="4358" limit="6000" acc="OK" pay="0"/>
+                            <ah m="2015-04" bal="4864" limit="6000" acc="OK" pay="0"/>
+                            <ah m="2015-03" bal="3876" limit="6000" acc="OK" pay="0"/>
+                            <ah m="2015-02" bal="4598" limit="6000" acc="OK" pay="0"/>
+                            <ah m="2015-01" bal="5026" limit="6000" acc="OK" pay="0"/>
+                            <ah m="2014-12" bal="1597" limit="6000" acc="OK" pay="0"/>
+                            <ah m="2014-11" bal="22" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-10" bal="21" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-09" bal="21" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-08" bal="20" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-07" bal="20" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-06" bal="20" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-05" bal="6" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-04" bal="16" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-03" bal="4062" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-02" bal="4082" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-01" bal="4104" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2013-12" bal="4124" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2013-11" bal="4166" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2013-10" bal="4154" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2013-09" bal="4094" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2013-08" bal="3277" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2013-07" bal="3301" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2013-06" bal="186" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2013-05" bal="0" limit="4400" acc="UC" pay="U"/>
+                        </acchistory>
+                        <accdetails>
+                            <joint>0</joint>
+                            <status>N</status>
+                            <dateupdated>2017-12-30</dateupdated>
+                            <acctypecode>CC</acctypecode>
+                            <accgroupid>3</accgroupid>
+                            <currencycode>GBP</currencycode>
+                            <balance>1010</balance>
+                            <limit>7900</limit>
+                            <openbalance>0</openbalance>
+                            <paystartdate>2013-05-28</paystartdate>
+                            <accstartdate>2013-05-28</accstartdate>
+                            <repayfreqcode>M</repayfreqcode>
+                            <lumppayment>0</lumppayment>
+                        </accdetails>
+                    </acc>
+                    <acc>
+                        <supplierdetails>
+                            <suppliertypecode>UT</suppliertypecode>
+                        </supplierdetails>
+                        <accholderdetails>
+                            <name>MR ANOWAR HOSSAIN</name>
+                            <address current="1">72 ARNOLD RD;DAGENHAM;ESSEX;;;;; RM9 6AN</address>
+                            <dob>1983-09-08</dob>
+                            <statuscode>N</statuscode>
+                            <startdate>2015-10-09</startdate>
+                        </accholderdetails>
+                        <acchistory>
+                            <ah m="2018-01" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-12" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-11" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-10" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-09" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-08" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-07" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-06" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-05" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-04" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-03" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-02" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-01" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-12" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-11" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-10" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-09" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-08" bal="25" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-07" bal="85" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-06" bal="69" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-05" bal="129" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-04" bal="189" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-03" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-02" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-01" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2015-12" bal="0" limit="0" acc="UC" pay="U"/>
+                        </acchistory>
+                        <accdetails>
+                            <joint>1</joint>
+                            <status>N</status>
+                            <dateupdated>2018-01-13</dateupdated>
+                            <acctypecode>GE</acctypecode>
+                            <accgroupid>5</accgroupid>
+                            <currencycode>GBP</currencycode>
+                            <balance>0</balance>
+                            <limit>0</limit>
+                            <openbalance>0</openbalance>
+                            <paystartdate>2015-10-09</paystartdate>
+                            <accstartdate>2015-10-09</accstartdate>
+                            <regpayment>41</regpayment>
+                            <repayfreqcode>M</repayfreqcode>
+                            <lumppayment>0</lumppayment>
+                        </accdetails>
+                    </acc>
+                    <acc>
+                        <supplierdetails>
+                            <suppliertypecode>UT</suppliertypecode>
+                        </supplierdetails>
+                        <accholderdetails>
+                            <name>MR ANOWAR HOSSAIN</name>
+                            <address current="1">72 ARNOLD RD;DAGENHAM;ESSEX;;;;; RM9 6AN</address>
+                            <dob>1983-09-08</dob>
+                            <statuscode>N</statuscode>
+                            <startdate>2015-10-09</startdate>
+                        </accholderdetails>
+                        <acchistory>
+                            <ah m="2018-01" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-12" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-11" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-10" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-09" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-08" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-07" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-06" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-05" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-04" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-03" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-02" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2017-01" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-12" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-11" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-10" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-09" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-08" bal="43" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-07" bal="179" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-06" bal="116" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-05" bal="168" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-04" bal="220" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-03" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-02" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2016-01" bal="0" limit="0" acc="OK" pay="0"/>
+                            <ah m="2015-12" bal="0" limit="0" acc="UC" pay="U"/>
+                        </acchistory>
+                        <accdetails>
+                            <joint>1</joint>
+                            <status>N</status>
+                            <dateupdated>2018-01-13</dateupdated>
+                            <acctypecode>EE</acctypecode>
+                            <accgroupid>5</accgroupid>
+                            <currencycode>GBP</currencycode>
+                            <balance>0</balance>
+                            <limit>0</limit>
+                            <openbalance>0</openbalance>
+                            <paystartdate>2015-10-09</paystartdate>
+                            <accstartdate>2015-10-09</accstartdate>
+                            <regpayment>54</regpayment>
+                            <repayfreqcode>M</repayfreqcode>
+                            <lumppayment>0</lumppayment>
+                        </accdetails>
+                    </acc>
+                    <acc>
+                        <supplierdetails>
+                            <suppliertypecode>CC</suppliertypecode>
+                        </supplierdetails>
+                        <accholderdetails>
+                            <name>MR ANOWAR HOSSAIN</name>
+                            <address current="1">72 ARNOLD ROAD;DAGENHAM;ESSEX;;;;; RM9 6AN</address>
+                            <dob>1983-09-08</dob>
+                            <statuscode>N</statuscode>
+                            <startdate>2014-04-01</startdate>
+                        </accholderdetails>
+                        <acchistory>
+                            <ah m="2017-12" bal="582" limit="8900" acc="OK" pay="0"/>
+                            <ah m="2017-11" bal="768" limit="8900" acc="OK" pay="0"/>
+                            <ah m="2017-10" bal="949" limit="8900" acc="OK" pay="0"/>
+                            <ah m="2017-09" bal="1128" limit="8900" acc="OK" pay="0"/>
+                            <ah m="2017-08" bal="1304" limit="8900" acc="OK" pay="0"/>
+                            <ah m="2017-07" bal="1476" limit="8900" acc="OK" pay="0"/>
+                            <ah m="2017-06" bal="1646" limit="8900" acc="OK" pay="0"/>
+                            <ah m="2017-05" bal="1810" limit="8900" acc="OK" pay="0"/>
+                            <ah m="2017-04" bal="1981" limit="8900" acc="OK" pay="0"/>
+                            <ah m="2017-03" bal="2181" limit="8900" acc="OK" pay="0"/>
+                            <ah m="2017-02" bal="2381" limit="8900" acc="OK" pay="0"/>
+                            <ah m="2017-01" bal="2581" limit="8900" acc="OK" pay="0"/>
+                            <ah m="2016-12" bal="2781" limit="8900" acc="OK" pay="0"/>
+                            <ah m="2016-11" bal="2981" limit="8900" acc="OK" pay="0"/>
+                            <ah m="2016-10" bal="3181" limit="8900" acc="OK" pay="0"/>
+                            <ah m="2016-09" bal="3381" limit="8900" acc="OK" pay="0"/>
+                            <ah m="2016-08" bal="3581" limit="7150" acc="OK" pay="0"/>
+                            <ah m="2016-07" bal="3781" limit="7150" acc="OK" pay="0"/>
+                            <ah m="2016-06" bal="3980" limit="7150" acc="OK" pay="0"/>
+                            <ah m="2016-05" bal="4175" limit="7150" acc="OK" pay="0"/>
+                            <ah m="2016-04" bal="4368" limit="7150" acc="OK" pay="0"/>
+                            <ah m="2016-03" bal="4556" limit="7150" acc="OK" pay="0"/>
+                            <ah m="2016-02" bal="4741" limit="7150" acc="OK" pay="0"/>
+                            <ah m="2016-01" bal="4922" limit="6150" acc="OK" pay="0"/>
+                            <ah m="2015-12" bal="5101" limit="6150" acc="OK" pay="0"/>
+                            <ah m="2015-11" bal="5273" limit="6150" acc="OK" pay="0"/>
+                            <ah m="2015-10" bal="5445" limit="6150" acc="OK" pay="0"/>
+                            <ah m="2015-09" bal="5612" limit="6150" acc="OK" pay="0"/>
+                            <ah m="2015-08" bal="5776" limit="6150" acc="OK" pay="0"/>
+                            <ah m="2015-07" bal="5929" limit="6150" acc="OK" pay="0"/>
+                            <ah m="2015-06" bal="2187" limit="5150" acc="OK" pay="0"/>
+                            <ah m="2015-05" bal="2380" limit="5150" acc="OK" pay="0"/>
+                            <ah m="2015-04" bal="2580" limit="5150" acc="OK" pay="0"/>
+                            <ah m="2015-03" bal="2780" limit="5150" acc="OK" pay="0"/>
+                            <ah m="2015-02" bal="2980" limit="5150" acc="OK" pay="0"/>
+                            <ah m="2015-01" bal="3180" limit="5150" acc="OK" pay="0"/>
+                            <ah m="2014-12" bal="3280" limit="5150" acc="OK" pay="0"/>
+                            <ah m="2014-11" bal="3380" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-10" bal="3480" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-09" bal="3580" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-08" bal="3680" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-07" bal="3766" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-06" bal="3849" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-05" bal="3932" limit="4400" acc="OK" pay="0"/>
+                            <ah m="2014-04" bal="4032" limit="4400" acc="OK" pay="0"/>
+                        </acchistory>
+                        <accdetails>
+                            <joint>0</joint>
+                            <status>N</status>
+                            <dateupdated>2017-12-31</dateupdated>
+                            <acctypecode>CC</acctypecode>
+                            <accgroupid>3</accgroupid>
+                            <currencycode>GBP</currencycode>
+                            <balance>582</balance>
+                            <limit>8900</limit>
+                            <openbalance>4032</openbalance>
+                            <paystartdate>2014-04-01</paystartdate>
+                            <accstartdate>2014-04-01</accstartdate>
+                            <repayfreqcode>M</repayfreqcode>
+                            <lumppayment>0</lumppayment>
+                        </accdetails>
+                    </acc>
+                </accs>
+                <demographics2006>
+                    <cameouk>08C</cameouk>
+                    <cameoincome>75</cameoincome>
+                    <cameoinvestor>55</cameoinvestor>
+                    <cameoproperty>14</cameoproperty>
+                    <cameofing>7</cameofing>
+                    <property>
+                        <ctaxband>C</ctaxband>
+                        <priceindex>72</priceindex>
+                    </property>
+                </demographics2006>
+            </applicant>
+        </creditreport>
+        <BSB searchid="{CCB95FE5-81DD-4F20-84EC-0F821084C42D}" linktype="0">
+            <OVERALL>
+                <MAIN B="0"/>
+                <CUGMEMB K="F" L="0" M="0"/>
+            </OVERALL>
+            <APPLICANT app_no="1">
+                <APPLSUMMARY>
+                    <MAIN W="P1" X="25"/>
+                    <COUNTS Z="0" AB="0" BB="0" CB="0" DB="0" EB="12" FB="11" GB="0"/>
+                    <SCOTDEBT OQB="{ND}"/>
+                    <NOTICES HB="0" IB="0"/>
+                    <SUB_BLOCKS C="1" D="1" E="{ND}" F="0"/>
+                    <ALIAS_NO UPB="0" VPB="{ND}" WPB="0"/>
+                    <ASSOC_NO DD="0" ED="1" AC="1"/>
+                    <ALERTSUMM PB="{ND}" QB="{ND}" RB="{ND}" SB="{ND}" TB="{ND}" UB="{ND}"/>
+                    <HHOSUMM BC="{ND}" RGB="{ND}"/>
+                    <TPD INB="{ND}" JNB="{ND}" KNB="{ND}" LNB="{ND}"/>
+                    <OCCUPANCY AD="1"/>
+                    <DECEASED LQB="0" FCC="{ND}" GCC="{ND}" HCC="{ND}" ICC="{ND}"/>
+                    <IMPAIRED MQB="0" LJC="0"/>
+                    <ACTIVITY JCC="{ND}" KCC="{ND}" LCC="{ND}"/>
+                    <ADVERSE MCC="{ND}" HHC="{ND}"/>
+                </APPLSUMMARY>
+                <ID>
+                    <APPL DC="{ND}" EC="{ND}" FC="{ND}" GC="I1" HC="IM" IC="{ND}"/>
+                </ID>
+                <PUBLIC>
+                    <BOTH FD="0" GD="0" HD="{ND}" ID="0" JD="{ND}" QDB="{ND}" TQB="{ND}" KD="0" CQB="{ND}"
+                          LD="0" DQB="{ND}" MD="{ND}" ND="{ND}" OD="{ND}" PD="0" QD="0" RD="{ND}" SD="0"/>
+                    <AMOUNT TD="0" VD="0"/>
+                    <TIME WD="{ND}" XD="{ND}" YD="{ND}" ZD="{ND}" AE="{ND}" BE="{ND}" CE="{ND}"/>
+                    <NUMRECENCY IE="0" JE="0" KE="0" LE="0" ME="0"/>
+                    <OTHER NE="{ND}" OE="0" PE="0" QE="0" RE="{ND}"/>
+                </PUBLIC>
+                <ER>
+                    <ADDRESS WE="{ND}" XE="25" YE="25" ZE="{ND}" AF="{ND}" BF="D" CF="{ND}" DF="{ND}" KQB="{ND}"
+                             WQB="1"/>
+                    <OCCUPANCY EF="12" GF="3"/>
+                    <NOTICES HF="0" IF="0"/>
+                    <TURNOVER NCC="{ND}"/>
+                </ER>
+                <SCORE>
+                    <MAIN JF="652" LF="2" MF="302" NF="402" OF="0" PF="0" QF="{ND}" RF="{ND}" SF="{ND}"
+                          TF="{ND}" UF="{ND}" VF="{ND}" WF="{ND}" XF="{ND}" YF="{ND}" ZF="{ND}" AG="{ND}"
+                          CG="{ND}" TJC="{ND}" UJC="{ND}" VJC="{ND}" WJC="{ND}" XJC="{ND}" YJC="{ND}" ZJC="{ND}"
+                          AKC="{ND}" BKC="{ND}" CKC="{ND}" DKC="{ND}" EKC="{ND}" FKC="{ND}" GKC="{ND}"
+                          HKC="{ND}" IKC="{ND}" JKC="{ND}" KKC="{ND}" LKC="{ND}" MKC="{ND}" NKC="{ND}"
+                          OKC="{ND}" PKC="{ND}" QKC="{ND}" RKC="{ND}" SKC="{ND}" TKC="{ND}" UKC="{ND}"
+                          VKC="{ND}" WKC="{ND}" XKC="{ND}" YKC="{ND}" ZKC="{ND}" ALC="{ND}" BLC="{ND}"
+                          CLC="{ND}" DLC="{ND}" ELC="{ND}" FLC="{ND}" GLC="{ND}" HLC="{ND}" ILC="{ND}"/>
+                </SCORE>
+                <FULL>
+                    <HHO FG="12" GG="128" HG="11" IG="6" JG="234716" KG="0"/>
+                    <BOTH LG="0" MG="0" NG="0" OG="0" SPB="U" RDB="U" HDC="{ND}" IDC="{ND}"/>
+                    <ALERT PG="{ND}"/>
+                    <EVENT RG="0" TG="0" OGC="{ND}" PGC="{ND}" QGC="{ND}"/>
+                    <TIME UG="0" VG="0" WG="0" XG="0" ZG="0" AH="1" BH="1" CH="1" JDC="{ND}" KDC="{ND}" GH="27"
+                          HH="{ND}" IH="{ND}" JH="0" SDB="0"/>
+                    <OPENVAL KH="{ND}" LH="{ND}" MH="{ND}" NH="{ND}" OH="{ND}" NDC="{ND}" ARB="{ND}" CRB="{ND}"
+                             DRB="2044" TDB="{ND}" RRB="{ND}"/>
+                    <WORSTLESS2 PH="11" QH="11" RH="11" SH="{ND}"/>
+                    <WORSTLESS1 UH="11" VH="11" WH="11" XH="{ND}"/>
+                    <WORSTUNCLASS ZH="0" AI="0" BI="0" CI="{ND}"/>
+                    <WORST0 EI="11" FI="11" GI="11" HI="{ND}"/>
+                    <WORST3PLUS EJ="0" FJ="0"/>
+                    <CODE1 HJ="{ND}" TJ="{ND}"/>
+                    <CODE2 ZJ="{ND}" FK="{ND}" RGC="{ND}"/>
+                    <CODEDM LJ="{ND}" MJ="{ND}" NJ="{ND}" OJ="{ND}"/>
+                    <TOTAL1 LK="{ND}" WK="{ND}"/>
+                    <TOTAL2 CL="{ND}" IL="{ND}" SGC="{ND}"/>
+                    <TOTALDM PK="{ND}" JCH="{ND}" QK="{ND}" RK="{ND}"/>
+                    <ACCOUNT OL="0" PL="1" QL="5" RL="{ND}" SL="{ND}" TL="{ND}" UL="3" VL="{ND}" WL="{ND}"
+                             XL="0"/>
+                    <VALUE DM="{ND}" EM="232672" FM="2044" GM="{ND}" HM="{ND}" IM="{ND}" JM="{ND}" KM="{ND}"
+                           LM="{ND}" MM="{ND}"/>
+                    <ACCOUNTACT KHC="{ND}" LHC="{ND}" MHC="4" NHC="{ND}" OHC="{ND}"/>
+                    <PERCUNSEC WZB="0" XZB="100" YZB="0" ZZB="0" MBC="0"/>
+                    <DEBT SM="234716" TM="2044" UM="2044" VM="96" WM="95" XM="94" MRB="134" POB="132"/>
+                    <DEBTLIMIT ZM="100" AN="104" BN="96" ODC="{ND}" PDC="{ND}" QDC="{ND}"/>
+                    <DEBTXMTGREPAY HN="6" IN="14" JN="15" KN="13" LN="{ND}" SDC="{ND}" TDC="{ND}"/>
+                    <DEBTMISC MN="0" NN="28750" ON="970" PN="{ND}" QN="232672" SJC="{ND}"/>
+                    <PAYMENTS RN="95" SN="95" TN="95" UN="95"/>
+                    <DUE WN="{ND}" XN="{ND}" YN="{ND}"/>
+                    <PAYSTAT3PLUS PO="{ND}" QO="0" RO="{ND}" SO="0"/>
+                    <WORSTPAY FRB="0" BQ="0" CQ="0" DQ="0" EQ="U" FQ="{ND}"/>
+                    <WORSTXHOME GRB="0" IRB="0"/>
+                    <WORSTXUTIL NJC="0" OJC="0"/>
+                    <COMPANIES HQ="11" IQ="11"/>
+                    <OPENED412MNTH BRB="{ND}"/>
+                    <OPENED12MNTH JQ="{ND}" KQ="{ND}" LQ="{ND}" MQ="{ND}"/>
+                    <OPENED12PLUSMNTH ERB="{ND}"/>
+                    <OPENED24MNTH NQ="{ND}" OQ="{ND}" PQ="{ND}" QQ="{ND}" RQ="{ND}"/>
+                    <OPENEDSETTLD ZQ="{ND}" AR="{ND}" BR="{ND}"/>
+                    <INDEBT NMB="1" OMB="1" RMB="0" SMB="1" TMB="148" WMB="10" RUB="0" XMB="0"/>
+                    <NOTICES DG="0" EG="0"/>
+                    <CURRENT JRB="0" KRB="7" HRB="0"/>
+                    <SETTLED0 LRB="1" YQB="1" ZQB="1"/>
+                    <RUNAWAYS FYB="0" GYB="0"/>
+                    <ALLHCSTATUS HYB="{ND}" MYB="{ND}" NYB="{ND}" OYB="{ND}"/>
+                    <ACTHCSTATUS RYB="{ND}"/>
+                    <XHOMECREDIT SYB="0"/>
+                    <HCBALANCES TYB="{ND}" WYB="{ND}" XYB="{ND}" YYB="{ND}"/>
+                    <LNOPENED UDC="{ND}" VDC="{ND}" WDC="{ND}" XDC="{ND}"/>
+                    <MTGOPENED YDC="{ND}" ZDC="{ND}" AEC="{ND}" BEC="{ND}"/>
+                    <CCOPENED CEC="{ND}" DEC="{ND}" EEC="{ND}" FEC="{ND}"/>
+                    <TELCOOPENED GEC="{ND}" HEC="{ND}" IEC="{ND}" JEC="{ND}"/>
+                    <UTILOPENED KEC="{ND}" LEC="{ND}" MEC="{ND}" NEC="{ND}"/>
+                    <HOMESHOPOPENED OEC="{ND}" PEC="{ND}" QEC="{ND}" REC="{ND}"/>
+                    <BKOPENED SEC="{ND}" TEC="{ND}" UEC="{ND}" VEC="{ND}"/>
+                    <MISCOPENED WEC="{ND}" XEC="{ND}" YEC="{ND}" ZEC="{ND}"/>
+                    <INSOPENED AFC="{ND}" BFC="{ND}" CFC="{ND}" DFC="{ND}"/>
+                    <HCNEWACCS WWB="0" XWB="0" YWB="0" ZWB="0"/>
+                    <LNSETTLED EFC="{ND}" FFC="{ND}" GFC="{ND}" HFC="{ND}"/>
+                    <MTGSETTLED IFC="{ND}" JFC="{ND}" KFC="{ND}" LFC="{ND}"/>
+                    <CCSETTLED MFC="{ND}" NFC="{ND}" OFC="{ND}" PFC="{ND}"/>
+                    <TELCOSETTLED QFC="{ND}" RFC="{ND}" SFC="{ND}" TFC="{ND}"/>
+                    <UTILSETTLED UFC="{ND}" VFC="{ND}" WFC="{ND}" XFC="{ND}"/>
+                    <HOMESHOPSETTLED YFC="{ND}" ZFC="{ND}" AGC="{ND}" BGC="{ND}"/>
+                    <BKSETTLED CGC="{ND}" DGC="{ND}" EGC="{ND}" FGC="{ND}"/>
+                    <MISCSETTLED GGC="{ND}" HGC="{ND}" IGC="{ND}" JGC="{ND}"/>
+                    <INSSETTLED KGC="{ND}" LGC="{ND}" MGC="{ND}" NGC="{ND}"/>
+                    <HCSETTLED BZB="0" CZB="0" DZB="0" FZB="0" NAC="{ND}" OAC="0"/>
+                    <REVOLVECRED MZB="7" RIC="14" SIC="16" TIC="14"/>
+                    <HCWRSTSETT PAC="{ND}" QAC="{ND}"/>
+                    <HCWRSTACT WAC="{ND}"/>
+                    <HCPAY RAC="{ND}"/>
+                    <HCAGE SAC="{ND}" TAC="{ND}"/>
+                    <HCBALCHG UAC="{ND}" VAC="{ND}" XAC="{ND}" YAC="{ND}"/>
+                    <WORSTPAYLOAN ABC="{ND}" BBC="{ND}" CBC="{ND}" TPC="{ND}"/>
+                    <WORSTPAYCC DBC="0" EBC="0" FBC="0" UPC="{ND}"/>
+                    <WORSTPAYMTG GBC="0" HBC="0" IBC="0" SPC="{ND}"/>
+                    <WORSTPAYTELECO PCC="{ND}" QCC="{ND}" RCC="{ND}"/>
+                    <WORSTPAYUTIL SCC="{ND}" TCC="{ND}" UCC="{ND}"/>
+                    <WORSTPAYHOMESHOP VCC="{ND}" WCC="{ND}" XCC="{ND}"/>
+                    <WORSTPAYBNK JBC="0" KBC="0" LBC="0" VPC="{ND}"/>
+                    <WORSTPAYMISC YCC="{ND}" ZCC="{ND}" ADC="{ND}"/>
+                    <WORSTPAYINS BDC="{ND}" CDC="{ND}" DDC="{ND}"/>
+                    <WORSTPAYHOMECR EDC="{ND}" FDC="{ND}" GDC="{ND}"/>
+                    <OPENED12MTHXHISTORIC ZBC="{ND}"/>
+                    <OPENED24MTHXHISTORIC ACC="{ND}"/>
+                    <DUEXHISTORIC BCC="{ND}" CCC="{ND}" DCC="{ND}"/>
+                    <BOTHXHISTORIC UBC="0" VBC="U"/>
+                    <WORSTPAYXHISTORIC WBC="0" XBC="0" YBC="0"/>
+                    <UTILISATION OCC="{ND}" PHC="{ND}" QHC="{ND}" RHC="{ND}" SHC="0" THC="0"/>
+                    <HIGHEST UHC="{ND}" VHC="{ND}"/>
+                    <PAYDAY XHC="0" ZHC="0" LIC="0"/>
+                    <PAYDAYOPENED BIC="0" CIC="0" DIC="0" MIC="{ND}" EJC="{ND}"/>
+                    <PAYDAYWORST IIC="{ND}" JIC="{ND}" KIC="{ND}"/>
+                    <PAYDAYVALUE YHC="{ND}" AIC="{ND}" EIC="{ND}" FIC="{ND}" GIC="{ND}" FJC="{ND}" GJC="{ND}"
+                                 HJC="{ND}" PJC="{ND}"/>
+                    <PAYDAYSETTLED HIC="0" JJC="0" KJC="{ND}" IJC="{ND}"/>
+                    <SECURED WPC="{ND}"/>
+                    <ARR12 XPC="{ND}" YPC="{ND}" ZPC="{ND}" AQC="{ND}"/>
+                    <CURR_AC BQC="{ND}" CQC="{ND}"/>
+                    <DEBT_COLL DQC="{ND}"/>
+                </FULL>
+                <PARTIAL>
+                    <BOTH MR="0" NR="0" OR="0" PR="0" QR="{ND}" RR="{ND}" SR="{ND}" TR="{ND}" UT="{ND}" UR="0"
+                          VR="0" TPB="0" TGC="{ND}" UGC="{ND}" RPC="{ND}"/>
+                    <ALERT WR="0"/>
+                    <ALL XR="N" YR="0" ZR="0" ZS="0" AT="0" BT="0" CT="0" DT="0" ET="0" FT="0" GT="0" IT="0"/>
+                    <VALDEFAULT AS="{ND}" BS="{ND}" CS="{ND}" DS="{ND}" ES="{ND}" FS="{ND}" GS="{ND}" HS="{ND}"
+                                JS="{ND}"/>
+                    <DOB PS="1983-09-08"/>
+                    <NOTICES WS="0"/>
+                    <MISC XS="{ND}" HZB="{ND}" MJC="{OB}"/>
+                    <NUMDEFBAL PT="0" QT="0" RT="0" ST="0" TT="0"/>
+                    <ENTERDEF PP="0" QP="0" RP="0" SP="0" TP="0"/>
+                    <SETTLED UP="0" GAC="{ND}" HAC="{ND}" IAC="{ND}" JAC="{ND}" VP="0"/>
+                    <RECOVERED GZB="{ND}" NZB="{ND}" ZP="{ND}" UZB="{ND}" VZB="{ND}" AQ="{ND}"/>
+                    <HCDELQ AAC="0" BAC="{ND}" CAC="{ND}"/>
+                    <HCVALDEF KAC="{ND}" LAC="{ND}" MAC="{ND}"/>
+                </PARTIAL>
+                <OWN>
+                    <TYPE AU="0" BU="0" CU="0" DU="0" EU="0" FU="0" GU="0" HU="{ND}" KZB="{ND}" IU="{ND}"
+                          JU="{ND}" KU="{ND}" LU="{ND}" LQC="{ND}"/>
+                    <TIME MU="{ND}" NU="{ND}" PU="{ND}" QU="{ND}" QZB="{ND}"/>
+                    <OPENED WW="{ND}" XW="{ND}" YW="{ND}" ZW="{ND}" AX="{ND}" WGC="{ND}"/>
+                    <TOTDF MX="{ND}"/>
+                    <NUMDF BY="0"/>
+                    <TOTNONDF QY="{ND}"/>
+                    <NUMNONDF FZ="0"/>
+                    <VALSECTOR LZ="{ND}" MZ="{ND}" NZ="{ND}"/>
+                    <DEBT UZ="{ND}" VZ="{ND}"/>
+                    <INDEBT YMB="0" ZMB="0" CNB="0" DNB="0" ENB="{ND}" FNB="{ND}" GNB="0" EQB="{ND}"/>
+                    <NOTICES TGB="0" UGB="0"/>
+                    <WORST JQB="{ND}" TZB="{ND}"/>
+                    <HCDELQ DAC="0" EAC="{ND}" FAC="{ND}"/>
+                </OWN>
+                <CAMEO2006>
+                    <MAIN GCB="{ND}" HCB="{ND}" TRB="{ND}" ICB="{ND}" FWB="{ND}" KCB="{ND}" URB="7" MOB="{ND}"
+                          VRB="5" NOB="14" OOB="{ND}" WRB="7" CSB="{ND}"/>
+                    <AGE DSB="{ND}" ESB="{ND}"/>
+                    <TENURE FSB="{ND}" GSB="16"/>
+                    <HHCOMP HSB="{ND}" LCB="{ND}"/>
+                    <ECONOMIC MCB="{ND}" NCB="{ND}"/>
+                    <LIFESTAGE OCB="{ND}" PCB="{ND}"/>
+                    <SOCIAL DDB="{ND}" EDB="{ND}" FDB="{ND}" GDB="{ND}"/>
+                    <OCCUPATION QCB="{ND}" RCB="{ND}"/>
+                    <MORTGAGE XCB="{ND}" YCB="{ND}"/>
+                    <SHAREHLD SCB="{ND}" TCB="{ND}" UCB="{ND}" VCB="{ND}" WCB="{ND}"/>
+                    <UNEMPLOY ZCB="{ND}" ADB="{ND}" BDB="{ND}" CDB="{ND}" HDB="{ND}" IDB="{ND}"/>
+                    <UNEMPRATE HWB="{ND}" IWB="{ND}" JWB="{ND}" KWB="{ND}" LWB="{ND}"/>
+                    <PROPERTY JDB="{ND}" KDB="{ND}" LDB="{ND}" MDB="{ND}" NDB="{ND}" ODB="{ND}" ISB="{ND}"
+                              GWB="{ND}" JSB="{ND}" KSB="{ND}" LSB="{ND}" MSB="{ND}" NSB="{ND}" OSB="{ND}"
+                              PSB="{ND}" QSB="{ND}" RSB="{ND}" SSB="{ND}" TSB="{ND}" USB="{ND}"/>
+                    <INTERNATIONAL PDB="{ND}"/>
+                </CAMEO2006>
+                <SEARCH>
+                    <MAIN UDB="1"/>
+                    <DEBTCOLL KEB="0" LEB="0" MEB="0" NEB="0" OEB="0" PEB="0"/>
+                    <ALLCA GQC="{ND}" YGC="5" QEB="5" REB="5" SEB="5" TEB="5" UEB="5" FQC="{ND}"/>
+                    <OWNCA VEB="5" WEB="5" XEB="5" YEB="5" ZEB="5"/>
+                    <HOMECREDIT MFB="0" NFB="0" OFB="0" PFB="0" QFB="0" RFB="0"/>
+                    <TELECOM XGC="{ND}"/>
+                    <PAYDAY DJC="0" NIC="0" OIC="0" PIC="0" QIC="0" EQC="{ND}"/>
+                    <PAYDAY_QS HQC="{ND}" IQC="{ND}" JQC="{ND}" KQC="{ND}" NQC="{ND}" OQC="{ND}"/>
+                    <PAYDAY_AM PQC="{ND}" QQC="{ND}" RQC="{ND}" SQC="{ND}" TQC="{ND}" UQC="{ND}"/>
+                    <ALL_AM VQC="{ND}" WQC="{ND}" XQC="{ND}" YQC="{ND}" ZQC="{ND}" ARC="{ND}"/>
+                    <INSURANCE BRC="{ND}" CRC="{ND}" DRC="{ND}" ERC="{ND}" FRC="{ND}" GRC="{ND}"/>
+                </SEARCH>
+                <ADDRLINK>
+                    <ADDMAIN VGB="1" WGB="11" ZAC="{ND}" NBC="{ND}"/>
+                    <ADDRAW XGB="24,ST. MARGARETS AVENUE,HARROW,HA2 8DA" YGB="M"
+                            QOB="{DF43B5AC-4BE2-4367-9418-10DB6F84526F}" ZGB="19B,STROUD GATE,HARROW,HA2 8JL"
+                            AHB="M" ROB="{0F870E88-5FE8-4B61-8871-411008015E0C}"
+                            BHB="261,BURGES ROAD,LONDON,E6 2EU" CHB="M"
+                            SOB="{7547D5A6-1BC9-416B-AE42-6B3EB918407C}" DHB="8,DOLLIS HILL LANE,LONDON,NW2 6JE"
+                            EHB="M" TOB="{2472658B-3E2F-4C79-8DEC-598B1DC681E7}"
+                            FHB="53,GRAVESHAM COURT,CLARENCE ROW,GRAVESEND,DA12 1HN" GHB="M"
+                            JBB="{E8B8010C-BD43-463B-A521-451781DC9F48}"/>
+                    <ADDTIME HHB="2014-02-28" IHB="2012-09-30" JHB="2012-03-01" KHB="2012-01-31"
+                             LHB="2011-04-30"/>
+                    <NOTICES XPB="0" YPB="0"/>
+                </ADDRLINK>
+                <ASSLINK>
+                    <MAIN VOB="1" WOB="0" XOB="1"/>
+                    <DECASSRAW YOB="{ND}" ZOB="{ND}" APB="{ND}" BPB="{ND}" CPB="{ND}" DPB="{ND}" EPB="{ND}"
+                               FPB="{ND}" GPB="{ND}" HPB="{ND}"/>
+                    <UNDECASSRAW IPB="MRS SHIRIN AKTER" JPB="{57DE7E2A-6540-4820-ABD3-83B4F34A146D}" KPB="{ND}"
+                                 LPB="{ND}" MPB="{ND}" NPB="{ND}" OPB="{ND}" PPB="{ND}" QPB="{ND}" RPB="{ND}"/>
+                    <NOTICES ZPB="0" AQB="0"/>
+                </ASSLINK>
+                <ICH>
+                    <PUBLIC FQB="0" GQB="0" NQB="0"/>
+                    <SHARE HQB="0" IQB="{ND}"/>
+                </ICH>
+            </APPLICANT>
+        </BSB>
+    </SearchResult>
+</Search07aResponse>

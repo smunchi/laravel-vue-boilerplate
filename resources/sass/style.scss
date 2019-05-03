@@ -1,0 +1,105 @@
+.cursor-pointer {
+    cursor: pointer;
+}
+/**
+   Modal SCSS
+ */
+.rh_modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    .rh_modal_bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #343a40;
+        opacity: 0.45;
+    }
+    .rh_modal_content {
+        position: absolute;
+        z-index: 1001;
+        min-height: 40%;
+        top: 10%;
+        &.full {
+            width: 94%;
+            left: 3%;
+            top: 3%;
+        }
+        &.lg {
+            width: 80%;
+            left: 10%;
+        }
+        &.md {
+            width: 60%;
+            left: 20%;
+        }
+        &.sm {
+            width: 50%;
+            left: 25%;
+        }
+        .rh_modal_close {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s
+}
+.fade-enter, .fade-leave-to{
+    opacity: 0
+}
+
+.pop-out-enter-active,
+.pop-out-leave-active {
+    transition: all 0.5s;
+}
+.pop-out-enter,
+.pop-out-leave-active {
+    opacity: 0;
+    transform: translateY(24px);
+}
+/*
+    Modal style end
+ */
+
+
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.swing:after{
+    content: '';
+    position: absolute;
+    width: 20px; height: 20px;
+    border: 1px solid #999;
+    top: -10px; left: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+}
+/* nail */
+.swing:before{
+    content: '';
+    position: absolute;
+    width: 5px; height: 5px;
+    top: -14px;left: 54%;
+    z-index: 5;
+    border-radius: 50% 50%;
+    background: #000;
+}
+
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}

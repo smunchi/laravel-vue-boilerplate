@@ -1,0 +1,361 @@
+FORMAT: 1A
+HOST: http://api.ratehammer.com
+
+# RateHammer
+API documentation of RateHammer
+
+# Group Authentication [/]
+
+## Customer Login [/login]
+
+### Login [POST]
++ Request (application/json)
+    + Attributes (CustomerLoginParam)
++ Response 200 (application/json)
+    + Attributes (Customer)
+
+## Aplications [/applications]
+### Applications [POST]
+For application store
+
++ Request (application/json)
+    + Attributes (ApplicationParams)
++ Response 200 (application/json)
+    + Attributes (Application)
+
+## Customers [/applications/{id}/customers]
+### Customers [POST]
+For application customer store
+
++ Request (application/json)
+    + Attributes (CustomerParams)
++ Response 200 (application/json)
+    + Attributes (Customer)
+
+## Customer Address [/customer/addresses]
+### All Addresses [GET]
+Get customer's addresses
+
++ Request (application/json)
+    + Headers
+            
+            Accept: application/json
+            Authentication: Bearer jhkjtuyi6jtjmhku68imgjy5yu4rhy4yrj
+            
++ Response 200 (application/json)
+    + Attributes (array[CustomerAddress, CustomerAddress])
+
+### Store Addresses [POST]
+Add customer's address
+
++ Request (application/json)
+    + Attributes (CustomerAddress)
+    + Headers
+            
+            Accept: application/json
+            Authentication: Bearer jhkjtuyi6jtjmhku68imgjy5yu4rhy4yrj
+            
++ Response 200 (application/json)
+    + Attributes (StoreCustomerAddress)
+
+## Selected Address [/customer/addresses/{id}]
+### Update Address [PUT]
+Update customer's address
+
++ Request (application/json)
+    + Attributes (CustomerAddress)
+    + Headers
+    
+            Accept: application/json
+            Authentication: Bearer jhkjtuyi6jtjmhku68imgjy5yu4rhy4yrj
+            
++ Response 200 (application/json)
+    + Attributes (UpdateCustomerAddress)
+
+### DeleteAddresses [DELETE]
+Delete customer Address
+
++ Request (application/json)
+    + Headers
+    
+            Accept: application/json
+            Authentication: Bearer jhkjtuyi6jtjmhku68imgjy5yu4rhy4yrj
+            
++ Response 200 (application/json)
+    + Attributes (DeleteCustomerAddress)
+
+## Financials [/customer/financials]
+### Financial [GET]
+Get customer's financials (income/expence/bank) information
+
++ Request (application/json)
+    + Headers 
+    
+            Accept: application/json
+            Authentication: Bearer jhkjtuyi6jtjmhku68imgjy5yu4rhy4yrj
+    
++ Response 200 (application/json)
+    + Attributes (CustomerFinancialInfo)
+
+### Financial [PUT]
+Put customer's financials (income/expence/bank) information
+
++ Request (application/json)
+    + Attributes (CustomerFinancialInfo)
+    + Headers 
+    
+            Accept: application/json
+            Authentication: Bearer jhkjtuyi6jtjmhku68imgjy5yu4rhy4yrj
+    
++ Response 200 (application/json)
+    + Attributes (ResponseCustomerFinancialInfo)
+
+
+## Employments [/customer/employments]
+Customer's employment information
+
+### All Employment [GET]
+
++ Request (application/json)
+    + Headers 
+    
+            Accept: application/json
+            Authentication: Bearer jhkjtuyi6jtjmhku68imgjy5yu4rhy4yrj
+    
++ Response 200 (application/json)
+    + Attributes (array[CustomerEmployment,CustomerEmployment,CustomerEmployment])
+
+### Store Employment [POST]
++ Request (application/json)
+    + Attributes (CustomerEmployment)
+    + Headers 
+    
+            Accept: application/json
+            Authentication: Bearer jhkjtuyi6jtjmhku68imgjy5yu4rhy4yrj
+    
++ Response 200 (application/json)
+    + Attributes (StoreResponseOFEmployment)
+
+
+## Selected Employment [/customer/employments/{id}]
+
+### Update Employment [PUT]
++ Request (application/json)
+    + Attributes (CustomerEmployment)
+    + Headers 
+    
+            Accept: application/json
+            Authentication: Bearer jhkjtuyi6jtjmhku68imgjy5yu4rhy4yrj
+    
++ Response 200 (application/json)
+    + Attributes (UpdateResponseOFEmployment)
+
+### Delete Employment [DELETE]
++ Request (application/json)
+    + Headers 
+    
+            Accept: application/json
+            Authentication: Bearer jhkjtuyi6jtjmhku68imgjy5yu4rhy4yrj
+    
++ Response 200 (application/json)
+    + Attributes (DeleteResponseOFEmployment)
+
+## Communication Preference [/customer/communication]
+Customer's communication perference information
+
+### Get Communication Perference [GET]
++ Request (application/json)
+    + Headers 
+    
+            Accept: application/json
+            Authentication: Bearer jhkjtuyi6jtjmhku68imgjy5yu4rhy4yrj
+
++ Response 200 (application/json)
+    + Attributes (CustomerCommunication)
+
+
+### Put Communication Perference [PUT]
++ Request (application/json)
+    + Attributes (CustomerCommunication)
+    + Headers 
+    
+            Accept: application/json
+            Authentication: Bearer jhkjtuyi6jtjmhku68imgjy5yu4rhy4yrj
+
++ Response 200 (application/json)
+    + Attributes (CustomerCommunication)
+    
+
+## Loans [/loans?type={type}]
+Customer's loans
+
+### Loans [GET]
++ Parameters
+    + type: `on-going` (enum, required)
+        - on-going
+        - past
+
++ Request (application/json)
+    + Headers 
+    
+            Accept: application/json
+            Authentication: Bearer jhkjtuyi6jtjmhku68imgjy5yu4rhy4yrj
+
++ Response 200 (application/json)
+    + Attributes (array[Application,Application,Application])
+
+## Offers [/offers]
+Customer's offer list
+
+### Offers [GET]
+
++ Request (application/json)
+    + Headers 
+    
+            Accept: application/json
+            Authentication: Bearer jhkjtuyi6jtjmhku68imgjy5yu4rhy4yrj
+
++ Response 200 (application/json)
+    + Attributes (array[Application,Application,Application])
+
+
+
+
+
+## Data Structures
+
+### CustomerLoginParam
+- email: `customer@example` (string, required)
+- password: `******` (string, required)
+
+### ApplicationParams
+- loan_amount: 400 (number, required)
+- loan_purpose_id: 1 (number, required)
+- loan_term: `23` (string, required)
+
+### Application
+- id: 1 (number)
+- loan_amount: 400 (number)
+- loan_purpose_id: 1 (required)
+- loan_term: `23` (string)
+- ipv4: `10.20.10.10` (string)
+- created_at: `10-10-19` (string)
+
+### CustomerParams
+- title: `mr` (string, required)
+- first_name: `Nurul` (string, required)
+- middle_name: `Azim` (string, required)
+- last_name: `` (string)
+- dob: `10-12-2019` (string, required)
+- marital_status: `single` (enum, required)
+    - married
+    - single
+    - divorced
+    - widowed
+    - cohabiting
+    - separated
+    - other
+- gender: `male` (enum, required)
+    - male
+    - female
+    - unclassified
+- total_dependent: 5 (number)
+- mobile_no: `090998980` (string, required)
+- home_phone_no: `` (string)
+- email: `customer@example.com` (string, required)
+- password: `media` (string, required)
+- password_confirmation: `media` (string, required)
+
+### Customer
+- token: `kdfakshdflsfkl95093534534ij6l334h6344l` (string)
+- expire: `8793485` (string)
+
+### CustomerAddress
+- postcode: `1234` (string, required)
+- house_name: `house name` (string, required)
+- road_no: `16` (string)
+- house_no: `16/a` (string, required)
+- road_name: `ring road` (string)
+- flat: `3rd floor` (string, required)
+- town: `Dhaka` (string)
+- city: `dhaka` (string, required)
+- months_at_address: 4 (number)
+- type: `previous` (enum, required)
+        - previous
+        - current
+- county: `Bangladesh` (string, required)
+- residence_status: `tenant furn, requiredished` (enum, required)
+    - owner
+    - council tenant
+    - tenant furnished
+    - tenant unfurnished
+    - tenant
+    - living with parents
+    - others
+
+### StoreCustomerAddress
+- message: `Address added successfully` (string)
+- data: true (boolean)
+
+### UpdateCustomerAddress
+- message: `Address updated successfully` (string)
+- data: true (boolean)
+
+### DeleteCustomerAddress
+- message: `Address deleted successfully` (string)
+- data: true (boolean)
+
+### CustomerBank
+- account_no: `9359347598379` (string, required)
+- sort_code: `8547` (string, required)
+- primary_debit_card_type: `visa delta` (enum, , required)
+    - visa debit, required
+    - visa delta
+    - mastercard debit
+    - solo
+    - switch/maestro
+- months_at_bank: 12 (number, required)
+
+### CustomerIncomeExpence
+- net_monthly_income: 234 (number, required)
+- monthly_mortgage: 45555 (number, required)
+- monthly_credit_commitment: 899889 (number, required)
+- other_monthly_expense: 493945 (number, required)
+- gross_monthly_income: 90000 (number, required)
+- gross_yearly_income: 788888 (number, required)
+
+### CustomerFinancialInfo
+- banks (CustomerBank)
+- income_expence (CustomerIncomeExpence)
+
+### ResponseCustomerFinancialInfo
+- data: true (boolean)
+- message: `Financial information updated successfully` (string)
+
+### CustomerEmployment
+- employer_name: `jon deo` (string, required)
+- salary: 7899999 (number, required)
+- job_title: `web developer` (string, required)
+- payment_method: `` (enum, required)
+    - weekly
+    - bi-weekly
+    - fortnightly
+    - monthly
+
+### StoreResponseOFEmployment
+- data: true (boolean)
+- message: `Employment info added successfully` (string)
+
+### UpdateResponseOFEmployment
+- data: true (boolean)
+- message: `Employment info updated successfully` (string)
+
+### DeleteResponseOFEmployment
+- data: true (boolean)
+- message: `Employment info deleted successfully` (string)
+
+### CustomerCommunication
+- by_email: true (boolean, required)
+- by_sms: true (boolean, required)
+- by_phone: true (boolean, required)
+- accepted: true (boolean, required)

@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Search07aResponse>
+	<SearchResult>
+		<jobdetails>
+			<searchid>{F881E8D5-5AC2-4EDF-9962-968611324B68}</searchid>
+			<cast>004.003.7.2.1.1.0.27542197.0</cast>
+			<pstv>27542197</pstv>
+			<ls>0</ls>
+			<searchdate>2016-04-06T15:17:51</searchdate>
+		</jobdetails>
+		<creditrequest datasets="255" schemaversion="7.2">
+			<applicant>
+				<address>
+					<abodeno/>
+					<buildingno>7</buildingno>
+					<buildingname/>
+					<street1>Old Farm Drive</street1>
+					<street2/>
+					<sublocality/>
+					<posttown>Southampton</posttown>
+					<postcode>SO18 2PX</postcode>
+				</address>
+				<name>
+					<title>Mr</title>
+					<forename>Graham</forename>
+					<othernames/>
+					<surname>Mcstay</surname>
+				</name>
+				<dob>1981-02-18</dob>
+				<applicantdemographics>
+					<contact>
+						<email>
+							<type>03</type>
+							<address>abc@gmail.com</address>
+						</email>
+						<telephone>
+							<type>13</type>
+							<std>01234</std>
+							<number>567890</number>
+						</telephone>
+						<telephone>
+							<type>15</type>
+							<std>07799</std>
+							<number>567890</number>
+						</telephone>
+					</contact>
+				</applicantdemographics>
+			</applicant>
+			<score>1</score>
+			<purpose>CA</purpose>
+			<autosearch>0</autosearch>
+			<autosearchmaximum>3</autosearchmaximum>
+		</creditrequest>
+		<picklist maxaddressitems="20" maxnameitems="9" picklist="1" regenerated="0">
+			<applicant id="1" reporttype="3">
+				<address addressid="1">
+					<addressinput>
+						<abodeno/>
+						<buildingno>7</buildingno>
+						<buildingname/>
+						<street1>Old Farm Drive</street1>
+						<street2/>
+						<sublocality/>
+						<locality/>
+						<posttown>Southampton</posttown>
+						<postcode>SO18 2PX</postcode>
+					</addressinput>
+					<fullmatches matchstatus="2" reporttype="3">
+						<fullmatch selected="1">
+							<addressmatch>
+								<buildingno>7</buildingno>
+								<street1>OLD FARM DRIVE</street1>
+								<posttown>SOUTHAMPTON</posttown>
+								<postcode>SO18 2PX</postcode>
+								<domicileid>18522336</domicileid>
+							</addressmatch>
+							<name nameid="1">
+								<nameinput>
+									<title>Mr</title>
+									<forename>Graham</forename>
+									<othernames/>
+									<surname>Mcstay</surname>
+								</nameinput>
+								<namematches matchstatus="2" reporttype="3">
+									<namematch selected="1">
+										<title>MR</title>
+										<forename>GRAHAM</forename>
+										<othernames>JOHN</othernames>
+										<surname>MCSTAY</surname>
+										<residenceid>271631488</residenceid>
+										<dob>1981-02-18</dob>
+									</namematch>
+								</namematches>
+							</name>
+						</fullmatch>
+					</fullmatches>
+				</address>
+			</applicant>
+		</picklist>
+		<creditreport linktype="0" searchid="{F881E8D5-5AC2-4EDF-9962-968611324B68}">
+			<applicant ageflag="0" reporttitle="GRAHAM JOHN MCSTAY " reporttype="3" tpoptout="0">
+				<summary>
+					<searches>
+						<totalsearches3months>1</totalsearches3months>
+						<totalsearches12months>1</totalsearches12months>
+						<totalhomecreditsearches3months>0</totalhomecreditsearches3months>
+					</searches>
+					<judgments>
+						<totalactive>0</totalactive>
+						<totalsatisfied>0</totalsatisfied>
+					</judgments>
+					<bais>
+						<totaldischarged>0</totaldischarged>
+						<currentlyinsolvent>0</currentlyinsolvent>
+						<restricted>0</restricted>
+					</bais>
+					<notices>
+						<nocflag>0</nocflag>
+						<totaldisputes>0</totaldisputes>
+					</notices>
+					<links>
+						<totalundecaddresses>1</totalundecaddresses>
+						<totalundecaliases>0</totalundecaliases>
+						<totalundecassociates>0</totalundecassociates>
+					</links>
+					<share>
+						<totalaccounts>1</totalaccounts>
+						<totalactiveaccs>1</totalactiveaccs>
+						<totalsettledaccs>0</totalsettledaccs>
+						<totalopened6months>0</totalopened6months>
+						<worsepaystatus12months>0</worsepaystatus12months>
+						<worsepaystatus36months>0</worsepaystatus36months>
+						<totaldelinqs12months>0</totaldelinqs12months>
+						<totaldefaults12months>0</totaldefaults12months>
+						<totaldefaults36months>0</totaldefaults36months>
+					</share>
+					<ich>
+						<impairedcredit>0</impairedcredit>
+						<secured>0</secured>
+						<unsecured>0</unsecured>
+						<judgment>0</judgment>
+						<iva>0</iva>
+						<boss>0</boss>
+					</ich>
+					<indebt>
+						<totalbalancesactive>0</totalbalancesactive>
+					</indebt>
+					<tpd>
+						<alertdecision>1</alertdecision>
+						<alertreview>1</alertreview>
+						<hho>1</hho>
+					</tpd>
+					<summaryaddress>
+						<pafvalid>1</pafvalid>
+						<messagecode>9</messagecode>
+					</summaryaddress>
+					<address current="1" id="1" messagecode="5">7 OLD FARM DRIVE, SOUTHAMPTON SO18 2PX</address>
+				</summary>
+				<creditscores>
+					<creditscore>
+						<score class="2">573</score>
+						<reasons>
+							<code>105</code>
+							<code>302</code>
+							<code>104</code>
+							<code>112</code>
+						</reasons>
+					</creditscore>
+				</creditscores>
+				<addressconfs>
+					<addressconf pafvalid="1">
+						<address current="1">7 OLD FARM DRIVE, SOUTHAMPTON SO18 2PX</address>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>SHEILA ELEANOR BAXTER</name>
+							<duration>P4M</duration>
+							<startdate>2015-12-01</startdate>
+							<ervalid>1</ervalid>
+							<erhistory>
+								<startdate>2015-12-01</startdate>
+								<optout>1</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>CLIFFORD F MARSH</name>
+							<duration>P4M</duration>
+							<startdate>2015-12-01</startdate>
+							<ervalid>1</ervalid>
+							<erhistory>
+								<startdate>2015-12-01</startdate>
+								<optout>1</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>SUSAN MARIA MARSH</name>
+							<duration>P4M</duration>
+							<startdate>2015-12-01</startdate>
+							<ervalid>1</ervalid>
+							<erhistory>
+								<startdate>2015-12-01</startdate>
+								<optout>1</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>ANNA-SARA TINGMAN</name>
+							<duration>P12M</duration>
+							<startdate>2011-10-28</startdate>
+							<enddate>2012-10-28</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>2011-10-28</startdate>
+								<enddate>2012-10-28</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>KATIE MICHELLE KILFORD</name>
+							<duration>P62M</duration>
+							<startdate>2010-10-28</startdate>
+							<enddate>2015-12-01</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>2010-10-28</startdate>
+								<enddate>2015-12-01</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>MURIEL ROSALIE CARR</name>
+							<duration>P110M</duration>
+							<startdate>2006-10-28</startdate>
+							<enddate>2015-12-01</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>2007-10-28</startdate>
+								<enddate>2015-12-01</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+							<erhistory>
+								<startdate>2006-10-28</startdate>
+								<enddate>2007-10-28</enddate>
+								<optout>1</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>RICHARD CHARLES CARR</name>
+							<duration>P110M</duration>
+							<startdate>2006-10-28</startdate>
+							<enddate>2015-12-01</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>2007-10-28</startdate>
+								<enddate>2015-12-01</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+							<erhistory>
+								<startdate>2006-10-28</startdate>
+								<enddate>2007-10-28</enddate>
+								<optout>1</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>LUKE GARY CHEATER</name>
+							<duration>P60M</duration>
+							<startdate>2006-10-28</startdate>
+							<enddate>2011-10-28</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>2007-10-28</startdate>
+								<enddate>2011-10-28</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+							<erhistory>
+								<startdate>2006-10-28</startdate>
+								<enddate>2007-10-28</enddate>
+								<optout>1</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>PAULA M KILFORD</name>
+							<duration>P110M</duration>
+							<startdate>2006-10-28</startdate>
+							<enddate>2015-12-01</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>2007-10-28</startdate>
+								<enddate>2015-12-01</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+							<erhistory>
+								<startdate>2006-10-28</startdate>
+								<enddate>2007-10-28</enddate>
+								<optout>1</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>JOSEPH AARON CHEATER</name>
+							<duration>P57M</duration>
+							<startdate>2006-10-28</startdate>
+							<enddate>2011-07-01</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>2007-10-28</startdate>
+								<enddate>2011-07-01</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+							<erhistory>
+								<startdate>2006-10-28</startdate>
+								<enddate>2007-10-28</enddate>
+								<optout>1</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>FRANCIS A GARDNER</name>
+							<duration>P72M</duration>
+							<startdate>2000-10-28</startdate>
+							<enddate>2006-10-28</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>2000-10-28</startdate>
+								<enddate>2006-10-28</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>RHODA J GARDNER</name>
+							<duration>P72M</duration>
+							<startdate>2000-10-28</startdate>
+							<enddate>2006-10-28</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>2000-10-28</startdate>
+								<enddate>2006-10-28</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>LEON A GARDNER</name>
+							<duration>P72M</duration>
+							<startdate>2000-10-28</startdate>
+							<enddate>2006-10-28</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>2000-10-28</startdate>
+								<enddate>2006-10-28</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>LOIS R GARDNER</name>
+							<duration>P72M</duration>
+							<startdate>2000-10-28</startdate>
+							<enddate>2006-10-28</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>2000-10-28</startdate>
+								<enddate>2006-10-28</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>MARION DOROTHY GARDNER</name>
+							<duration>P72M</duration>
+							<startdate>2000-10-28</startdate>
+							<enddate>2006-10-28</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>2000-10-28</startdate>
+								<enddate>2006-10-28</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>ARTHUR C CHIVERS</name>
+							<duration>P48M</duration>
+							<startdate>1998-10-28</startdate>
+							<enddate>2002-10-28</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>1998-10-28</startdate>
+								<enddate>2002-10-28</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>ALICE E CHIVERS</name>
+							<duration>P60M</duration>
+							<startdate>1998-10-28</startdate>
+							<enddate>2003-10-28</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>1998-10-28</startdate>
+								<enddate>2003-10-28</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>JACQUELINE FRYER</name>
+							<duration>P48M</duration>
+							<startdate>1994-10-28</startdate>
+							<enddate>1998-10-28</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>1994-10-28</startdate>
+								<enddate>1998-10-28</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>LYNDA M BAILEY</name>
+							<duration>P72M</duration>
+							<startdate>1992-10-28</startdate>
+							<enddate>1998-10-28</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>1992-10-28</startdate>
+								<enddate>1998-10-28</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>NICOLE FRYER</name>
+							<duration>P72M</duration>
+							<startdate>1992-10-28</startdate>
+							<enddate>1998-10-28</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>1992-10-28</startdate>
+								<enddate>1998-10-28</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+						<resident currentname="0" declaredalias="0" matchtype="HM">
+							<name>LAWRENCE FRYER</name>
+							<duration>P180M</duration>
+							<startdate>1983-10-28</startdate>
+							<enddate>1998-10-28</enddate>
+							<ervalid>3</ervalid>
+							<erhistory>
+								<startdate>1983-10-28</startdate>
+								<enddate>1998-10-28</enddate>
+								<optout>0</optout>
+								<rollingroll>0</rollingroll>
+							</erhistory>
+						</resident>
+					</addressconf>
+				</addressconfs>
+				<judgments/>
+				<bais/>
+				<searches>
+					<search>
+						<searchref>{B568AFAC-2B40-494E-A998-378A5873D985}</searchref>
+						<searchorgtype>OF</searchorgtype>
+						<ownsearch>0</ownsearch>
+						<subsequentenquiry>0</subsequentenquiry>
+						<searchpurpose>AR</searchpurpose>
+						<balance>0</balance>
+						<term>0</term>
+						<jointapplication>0</jointapplication>
+						<searchdate>2016-04-06T14:05:31</searchdate>
+						<name>MR GRAHAM JOHN MCSTAY</name>
+						<address current="1">7 OLD FARM DRIVE, SOUTHAMPTON SO18 2PX</address>
+						<tpoptout>1</tpoptout>
+						<transient>0</transient>
+					</search>
+					<search>
+						<searchref>{4FBAA8CC-1AE8-4511-9F37-D4D3444D4D1C}</searchref>
+						<searchorgtype>OF</searchorgtype>
+						<ownsearch>0</ownsearch>
+						<subsequentenquiry>0</subsequentenquiry>
+						<searchpurpose>CA</searchpurpose>
+						<credittype>HP</credittype>
+						<balance>9000</balance>
+						<term>0</term>
+						<jointapplication>0</jointapplication>
+						<searchdate>2016-04-06T14:05:30</searchdate>
+						<name>Mr Graham Mcstay</name>
+						<dob>1981-02-18</dob>
+						<address current="1">7 Old Farm Drive, Southampton SO18 2PX</address>
+						<startdate>2012-12-06</startdate>
+						<tpoptout>0</tpoptout>
+						<transient>0</transient>
+					</search>
+					<search>
+						<searchref>{77D389FB-12F6-490B-86C4-C8BB708E55CC}</searchref>
+						<searchorgtype>CR</searchorgtype>
+						<ownsearch>0</ownsearch>
+						<subsequentenquiry>0</subsequentenquiry>
+						<searchpurpose>QS</searchpurpose>
+						<credittype>HP</credittype>
+						<term>0</term>
+						<jointapplication>0</jointapplication>
+						<searchdate>2016-04-06T14:04:38</searchdate>
+						<name>Mr Graham Mcstay</name>
+						<dob>1981-02-18</dob>
+						<address current="1">7 Old Farm Drive, Southampton SO182PX</address>
+						<tpoptout>0</tpoptout>
+						<transient>0</transient>
+					</search>
+					<search>
+						<searchref>{3A16F865-B0DE-485D-83B9-C74AFB326BFC}</searchref>
+						<searchorgtype>GI</searchorgtype>
+						<ownsearch>0</ownsearch>
+						<subsequentenquiry>0</subsequentenquiry>
+						<searchpurpose>QS</searchpurpose>
+						<term>0</term>
+						<jointapplication>0</jointapplication>
+						<searchdate>2015-12-17T18:53:28</searchdate>
+						<name>Mr Graham Mcstay</name>
+						<dob>1981-02-18</dob>
+						<address current="1">7 Old Farm Drive, SOUTHAMPTON SO18 2PX</address>
+						<tpoptout>1</tpoptout>
+						<transient>0</transient>
+					</search>
+				</searches>
+				<addresslinks>
+					<addresses>
+						<address addressid="1" current="1" declared="1">7 OLD FARM DRIVE, SOUTHAMPTON, SO18 2PX</address>
+						<address addressid="2" current="0" declared="0" navlinkid="{CCA76CD9-B522-4DAF-85C6-878149E03D03}">28 CROSS ROAD, SOUTHAMPTON, SO19 4BW</address>
+					</addresses>
+					<links>
+						<link from="2" to="1">
+							<creationdate>2015-06-01</creationdate>
+							<lastconfdate>2015-06-01</lastconfdate>
+							<supplierdetails>
+								<suppliertypecode>MO</suppliertypecode>
+							</supplierdetails>
+						</link>
+					</links>
+				</addresslinks>
+				<aliaslinks/>
+				<associatelinks/>
+				<accs>
+					<acc>
+						<supplierdetails>
+							<suppliertypecode>BK</suppliertypecode>
+						</supplierdetails>
+						<accholderdetails>
+							<name>MR GRAHAM JOHN MCSTAY</name>
+							<address current="1">7 OLD FARM DRIVE;SOUTHAMPTON;HAMPSHIRE;;;;; SO18 2PX</address>
+							<dob>1981-02-18</dob>
+							<statuscode>N</statuscode>
+							<startdate>2015-06-08</startdate>
+						</accholderdetails>
+						<acchistory>
+							<ah acc="OK" bal="0" limit="0" m="2016-02" pay="0"/>
+							<ah acc="OK" bal="0" limit="0" m="2016-01" pay="0"/>
+							<ah acc="OK" bal="0" limit="0" m="2015-12" pay="0"/>
+							<ah acc="OK" bal="1" limit="0" m="2015-11" pay="0"/>
+							<ah acc="OK" bal="0" limit="0" m="2015-10" pay="0"/>
+							<ah acc="OK" bal="0" limit="0" m="2015-09" pay="0"/>
+							<ah acc="OK" bal="0" limit="0" m="2015-08" pay="0"/>
+							<ah acc="OK" bal="0" limit="0" m="2015-07" pay="0"/>
+							<ah acc="OK" bal="0" limit="0" m="2015-06" pay="0"/>
+						</acchistory>
+						<accdetails>
+							<joint>0</joint>
+							<status>N</status>
+							<dateupdated>2016-02-29</dateupdated>
+							<acctypecode>CA</acctypecode>
+							<accgroupid>7</accgroupid>
+							<currencycode>GBP</currencycode>
+							<balance>0</balance>
+							<limit>0</limit>
+							<openbalance>0</openbalance>
+							<paystartdate>2015-06-08</paystartdate>
+							<accstartdate>2015-06-08</accstartdate>
+							<repayfreqcode>M</repayfreqcode>
+							<lumppayment>0</lumppayment>
+						</accdetails>
+					</acc>
+				</accs>
+				<demographics2006>
+					<cameouk>09B</cameouk>
+					<cameoincome>65</cameoincome>
+					<cameoinvestor>35</cameoinvestor>
+					<cameoproperty>13</cameoproperty>
+					<cameofing>6</cameofing>
+					<property>
+						<ctaxband>C</ctaxband>
+						<priceindex>67</priceindex>
+					</property>
+				</demographics2006>
+			</applicant>
+		</creditreport>
+		<BSB linktype="0" searchid="{F881E8D5-5AC2-4EDF-9962-968611324B68}">
+			<OVERALL>
+				<MAIN B="0"/>
+				<CUGMEMB K="F" L="0" M="0"/>
+			</OVERALL>
+			<APPLICANT app_no="1">
+				<APPLSUMMARY>
+					<MAIN W="N1" X="{ND}"/>
+					<COUNTS AB="0" BB="0" CB="0" DB="0" EB="1" FB="1" GB="0" Z="0"/>
+					<SCOTDEBT OQB="{ND}"/>
+					<NOTICES HB="0" IB="0"/>
+					<SUB_BLOCKS C="1" D="1" E="{ND}" F="0"/>
+					<ALIAS_NO UPB="0" VPB="{ND}" WPB="0"/>
+					<ASSOC_NO AC="0" DD="0" ED="0"/>
+					<ALERTSUMM PB="{ND}" QB="{ND}" RB="{ND}" SB="{ND}" TB="{ND}" UB="{ND}"/>
+					<HHOSUMM BC="{ND}" RGB="{ND}"/>
+					<TPD INB="{ND}" JNB="{ND}" KNB="{ND}" LNB="{ND}"/>
+					<OCCUPANCY AD="1"/>
+					<DECEASED FCC="{ND}" GCC="{ND}" HCC="{ND}" ICC="{ND}" LQB="0"/>
+					<IMPAIRED LJC="0" MQB="0"/>
+					<ACTIVITY JCC="{ND}" KCC="{ND}" LCC="{ND}"/>
+					<ADVERSE HHC="{ND}" MCC="{ND}"/>
+				</APPLSUMMARY>
+				<ID>
+					<APPL DC="{ND}" EC="{ND}" FC="{ND}" GC="I1" HC="IM" IC="{ND}"/>
+				</ID>
+				<PUBLIC>
+					<BOTH CQB="{ND}" DQB="{ND}" FD="0" GD="0" HD="{ND}" ID="0" JD="{ND}" KD="0" LD="0" MD="{ND}" ND="{ND}" OD="{ND}" PD="0" QD="0" QDB="{ND}" RD="{ND}" SD="0" TQB="{ND}"/>
+					<AMOUNT TD="0" VD="0"/>
+					<TIME AE="{ND}" BE="{ND}" CE="{ND}" WD="{ND}" XD="{ND}" YD="{ND}" ZD="{ND}"/>
+					<NUMRECENCY IE="0" JE="0" KE="0" LE="0" ME="0"/>
+					<OTHER NE="{ND}" OE="0" PE="0" QE="0" RE="{ND}"/>
+				</PUBLIC>
+				<ER>
+					<ADDRESS AF="{ND}" BF="G" CF="{ND}" DF="{ND}" KQB="{ND}" WE="{ND}" WQB="1" XE="{ND}" YE="{ND}" ZE="{ND}"/>
+					<OCCUPANCY EF="26" GF="2"/>
+					<NOTICES HF="0" IF="0"/>
+					<TURNOVER NCC="{ND}"/>
+				</ER>
+				<SCORE>
+					<MAIN AG="{ND}" AKC="{ND}" ALC="{ND}" BKC="{ND}" BLC="{ND}" CG="{ND}" CKC="{ND}" CLC="{ND}" DKC="{ND}" DLC="{ND}" EKC="{ND}" ELC="{ND}" FKC="{ND}" FLC="{ND}" GKC="{ND}" GLC="{ND}" HKC="{ND}" HLC="{ND}" IKC="{ND}" ILC="{ND}" JF="573" JKC="{ND}" KKC="{ND}" LF="2" LKC="{ND}" MF="105" MKC="{ND}" NF="302" NKC="{ND}" OF="104" OKC="{ND}" PF="112" PKC="{ND}" QF="{ND}" QKC="{ND}" RF="{ND}" RKC="{ND}" SF="{ND}" SKC="{ND}" TF="{ND}" TJC="{ND}" TKC="{ND}" UF="{ND}" UJC="{ND}" UKC="{ND}" VF="{ND}" VJC="{ND}" VKC="{ND}" WF="{ND}" WJC="{ND}" WKC="{ND}" XF="{ND}" XJC="{ND}" XKC="{ND}" YF="{ND}" YJC="{ND}" YKC="{ND}" ZF="{ND}" ZJC="{ND}" ZKC="{ND}"/>
+				</SCORE>
+				<FULL>
+					<HHO FG="1" GG="10" HG="1" IG="1" JG="0" KG="{ND}"/>
+					<BOTH HDC="{ND}" IDC="{ND}" LG="0" MG="0" NG="0" OG="0" RDB="0" SPB="0"/>
+					<ALERT PG="{ND}"/>
+					<EVENT OGC="{ND}" PGC="{ND}" QGC="{ND}" RG="0" TG="0"/>
+					<TIME AH="0" BH="0" CH="0" GH="10" HH="{ND}" IH="{ND}" JDC="{ND}" JH="0" KDC="{ND}" SDB="0" UG="0" VG="0" WG="1" XG="1" ZG="0"/>
+					<OPENVAL ARB="{ND}" CRB="{ND}" DRB="{ND}" KH="{ND}" LH="{ND}" MH="0" NDC="{ND}" NH="{ND}" OH="{ND}" RRB="{ND}" TDB="{ND}"/>
+					<WORSTLESS2 PH="1" QH="1" RH="1" SH="{ND}"/>
+					<WORSTLESS1 UH="1" VH="1" WH="1" XH="{ND}"/>
+					<WORSTUNCLASS AI="0" BI="0" CI="{ND}" ZH="0"/>
+					<WORST0 EI="1" FI="1" GI="1" HI="{ND}"/>
+					<WORST3PLUS EJ="0" FJ="0"/>
+					<CODE1 HJ="{ND}" TJ="{ND}"/>
+					<CODE2 FK="{ND}" RGC="{ND}" ZJ="{ND}"/>
+					<CODEDM LJ="{ND}" MJ="{ND}" NJ="{ND}" OJ="{ND}"/>
+					<TOTAL1 LK="{ND}" WK="{ND}"/>
+					<TOTAL2 CL="{ND}" IL="{ND}" SGC="{ND}"/>
+					<TOTALDM JCH="{ND}" PK="{ND}" QK="{ND}" RK="{ND}"/>
+					<ACCOUNT OL="0" PL="0" QL="0" RL="{ND}" SL="{ND}" TL="{ND}" UL="1" VL="{ND}" WL="{ND}" XL="0"/>
+					<VALUE DM="{ND}" EM="{ND}" FM="{ND}" GM="{ND}" HM="{ND}" IM="{ND}" JM="{ND}" KM="{ND}" LM="{ND}" MM="{ND}"/>
+					<ACCOUNTACT KHC="{ND}" LHC="{ND}" MHC="0" NHC="{ND}" OHC="{ND}"/>
+					<PERCUNSEC MBC="{ND}" WZB="{ND}" XZB="{ND}" YZB="{ND}" ZZB="0"/>
+					<DEBT MRB="{ND}" POB="{ND}" SM="0" TM="0" UM="0" VM="{ND}" WM="{ND}" XM="{ND}"/>
+					<DEBTLIMIT AN="{ND}" BN="{ND}" ODC="{ND}" PDC="{ND}" QDC="{ND}" ZM="{ND}"/>
+					<DEBTXMTGREPAY HN="{ND}" IN="{ND}" JN="{ND}" KN="{ND}" LN="{ND}" SDC="{ND}" TDC="{ND}"/>
+					<DEBTMISC MN="{ND}" NN="{ND}" ON="{ND}" PN="{ND}" QN="{ND}" SJC="{ND}"/>
+					<PAYMENTS RN="0" SN="0" TN="0" UN="{ND}"/>
+					<DUE WN="{ND}" XN="{ND}" YN="{ND}"/>
+					<PAYSTAT3PLUS PO="{ND}" QO="0" RO="{ND}" SO="0"/>
+					<WORSTPAY BQ="0" CQ="0" DQ="0" EQ="0" FQ="{ND}" FRB="0"/>
+					<WORSTXHOME GRB="0" IRB="0"/>
+					<WORSTXUTIL NJC="0" OJC="0"/>
+					<COMPANIES HQ="1" IQ="1"/>
+					<OPENED412MNTH BRB="0"/>
+					<OPENED12MNTH JQ="{ND}" KQ="0" LQ="{ND}" MQ="{ND}"/>
+					<OPENED12PLUSMNTH ERB="{ND}"/>
+					<OPENED24MNTH NQ="{ND}" OQ="0" PQ="0" QQ="{ND}" RQ="{ND}"/>
+					<OPENEDSETTLD AR="{ND}" BR="{ND}" ZQ="{ND}"/>
+					<INDEBT NMB="0" OMB="0" RMB="0" RUB="0" SMB="0" TMB="0" WMB="0" XMB="1"/>
+					<NOTICES DG="0" EG="0"/>
+					<CURRENT HRB="0" JRB="0" KRB="1"/>
+					<SETTLED0 LRB="0" YQB="0" ZQB="0"/>
+					<RUNAWAYS FYB="0" GYB="0"/>
+					<ALLHCSTATUS HYB="{ND}" MYB="{ND}" NYB="{ND}" OYB="{ND}"/>
+					<ACTHCSTATUS RYB="{ND}"/>
+					<XHOMECREDIT SYB="0"/>
+					<HCBALANCES TYB="{ND}" WYB="{ND}" XYB="{ND}" YYB="{ND}"/>
+					<LNOPENED UDC="{ND}" VDC="{ND}" WDC="{ND}" XDC="{ND}"/>
+					<MTGOPENED AEC="{ND}" BEC="{ND}" YDC="{ND}" ZDC="{ND}"/>
+					<CCOPENED CEC="{ND}" DEC="{ND}" EEC="{ND}" FEC="{ND}"/>
+					<TELCOOPENED GEC="{ND}" HEC="{ND}" IEC="{ND}" JEC="{ND}"/>
+					<UTILOPENED KEC="{ND}" LEC="{ND}" MEC="{ND}" NEC="{ND}"/>
+					<HOMESHOPOPENED OEC="{ND}" PEC="{ND}" QEC="{ND}" REC="{ND}"/>
+					<BKOPENED SEC="{ND}" TEC="{ND}" UEC="{ND}" VEC="{ND}"/>
+					<MISCOPENED WEC="{ND}" XEC="{ND}" YEC="{ND}" ZEC="{ND}"/>
+					<INSOPENED AFC="{ND}" BFC="{ND}" CFC="{ND}" DFC="{ND}"/>
+					<HCNEWACCS WWB="0" XWB="0" YWB="0" ZWB="0"/>
+					<LNSETTLED EFC="{ND}" FFC="{ND}" GFC="{ND}" HFC="{ND}"/>
+					<MTGSETTLED IFC="{ND}" JFC="{ND}" KFC="{ND}" LFC="{ND}"/>
+					<CCSETTLED MFC="{ND}" NFC="{ND}" OFC="{ND}" PFC="{ND}"/>
+					<TELCOSETTLED QFC="{ND}" RFC="{ND}" SFC="{ND}" TFC="{ND}"/>
+					<UTILSETTLED UFC="{ND}" VFC="{ND}" WFC="{ND}" XFC="{ND}"/>
+					<HOMESHOPSETTLED AGC="{ND}" BGC="{ND}" YFC="{ND}" ZFC="{ND}"/>
+					<BKSETTLED CGC="{ND}" DGC="{ND}" EGC="{ND}" FGC="{ND}"/>
+					<MISCSETTLED GGC="{ND}" HGC="{ND}" IGC="{ND}" JGC="{ND}"/>
+					<INSSETTLED KGC="{ND}" LGC="{ND}" MGC="{ND}" NGC="{ND}"/>
+					<HCSETTLED BZB="0" CZB="0" DZB="0" FZB="0" NAC="{ND}" OAC="0"/>
+					<REVOLVECRED MZB="{ND}" RIC="{ND}" SIC="{ND}" TIC="{ND}"/>
+					<HCWRSTSETT PAC="{ND}" QAC="{ND}"/>
+					<HCWRSTACT WAC="{ND}"/>
+					<HCPAY RAC="{ND}"/>
+					<HCAGE SAC="{ND}" TAC="{ND}"/>
+					<HCBALCHG UAC="{ND}" VAC="{ND}" XAC="{ND}" YAC="{ND}"/>
+					<WORSTPAYLOAN ABC="{ND}" BBC="{ND}" CBC="{ND}" TPC="{ND}"/>
+					<WORSTPAYCC DBC="{ND}" EBC="{ND}" FBC="{ND}" UPC="{ND}"/>
+					<WORSTPAYMTG GBC="{ND}" HBC="{ND}" IBC="{ND}" SPC="{ND}"/>
+					<WORSTPAYTELECO PCC="{ND}" QCC="{ND}" RCC="{ND}"/>
+					<WORSTPAYUTIL SCC="{ND}" TCC="{ND}" UCC="{ND}"/>
+					<WORSTPAYHOMESHOP VCC="{ND}" WCC="{ND}" XCC="{ND}"/>
+					<WORSTPAYBNK JBC="0" KBC="0" LBC="0" VPC="{ND}"/>
+					<WORSTPAYMISC ADC="{ND}" YCC="{ND}" ZCC="{ND}"/>
+					<WORSTPAYINS BDC="{ND}" CDC="{ND}" DDC="{ND}"/>
+					<WORSTPAYHOMECR EDC="{ND}" FDC="{ND}" GDC="{ND}"/>
+					<OPENED12MTHXHISTORIC ZBC="{ND}"/>
+					<OPENED24MTHXHISTORIC ACC="0"/>
+					<DUEXHISTORIC BCC="{ND}" CCC="{ND}" DCC="{ND}"/>
+					<BOTHXHISTORIC UBC="0" VBC="0"/>
+					<WORSTPAYXHISTORIC WBC="0" XBC="0" YBC="0"/>
+					<UTILISATION OCC="{ND}" PHC="{ND}" QHC="{ND}" RHC="{ND}" SHC="{ND}" THC="{ND}"/>
+					<HIGHEST UHC="{ND}" VHC="{ND}"/>
+					<PAYDAY LIC="0" XHC="0" ZHC="0"/>
+					<PAYDAYOPENED BIC="0" CIC="0" DIC="0" EJC="{ND}" MIC="{ND}"/>
+					<PAYDAYWORST IIC="{ND}" JIC="{ND}" KIC="{ND}"/>
+					<PAYDAYVALUE AIC="{ND}" EIC="{ND}" FIC="{ND}" FJC="{ND}" GIC="{ND}" GJC="{ND}" HJC="{ND}" PJC="{ND}" YHC="{ND}"/>
+					<PAYDAYSETTLED HIC="0" IJC="{ND}" JJC="0" KJC="{ND}"/>
+					<SECURED WPC="{ND}"/>
+					<ARR12 AQC="{ND}" XPC="{ND}" YPC="{ND}" ZPC="{ND}"/>
+					<CURR_AC BQC="{ND}" CQC="{ND}"/>
+					<DEBT_COLL DQC="{ND}"/>
+				</FULL>
+				<PARTIAL>
+					<BOTH MR="0" NR="0" OR="0" PR="0" QR="{ND}" RPC="{ND}" RR="{ND}" SR="{ND}" TGC="{ND}" TPB="0" TR="{ND}" UGC="{ND}" UR="0" UT="{ND}" VR="0"/>
+					<ALERT WR="0"/>
+					<ALL AT="0" BT="0" CT="0" DT="0" ET="0" FT="0" GT="0" IT="0" XR="N" YR="0" ZR="0" ZS="0"/>
+					<VALDEFAULT AS="{ND}" BS="{ND}" CS="{ND}" DS="{ND}" ES="{ND}" FS="{ND}" GS="{ND}" HS="{ND}" JS="{ND}"/>
+					<DOB PS="1981-02-18"/>
+					<NOTICES WS="0"/>
+					<MISC HZB="{ND}" MJC="{OB}" XS="{ND}"/>
+					<NUMDEFBAL PT="0" QT="0" RT="0" ST="0" TT="0"/>
+					<ENTERDEF PP="0" QP="0" RP="0" SP="0" TP="0"/>
+					<SETTLED GAC="{ND}" HAC="{ND}" IAC="{ND}" JAC="{ND}" UP="0" VP="0"/>
+					<RECOVERED AQ="{ND}" GZB="{ND}" NZB="{ND}" UZB="{ND}" VZB="{ND}" ZP="{ND}"/>
+					<HCDELQ AAC="0" BAC="{ND}" CAC="{ND}"/>
+					<HCVALDEF KAC="{ND}" LAC="{ND}" MAC="{ND}"/>
+				</PARTIAL>
+				<OWN>
+					<TYPE AU="0" BU="0" CU="0" DU="0" EU="0" FU="0" GU="0" HU="{ND}" IU="{ND}" JU="{ND}" KU="{ND}" KZB="{ND}" LQC="{ND}" LU="{ND}"/>
+					<TIME MU="{ND}" NU="{ND}" PU="{ND}" QU="{ND}" QZB="{ND}"/>
+					<OPENED AX="{ND}" WGC="{ND}" WW="{ND}" XW="{ND}" YW="{ND}" ZW="{ND}"/>
+					<TOTDF MX="{ND}"/>
+					<NUMDF BY="0"/>
+					<TOTNONDF QY="{ND}"/>
+					<NUMNONDF FZ="0"/>
+					<VALSECTOR LZ="{ND}" MZ="{ND}" NZ="{ND}"/>
+					<DEBT UZ="{ND}" VZ="{ND}"/>
+					<INDEBT CNB="0" DNB="0" ENB="{ND}" EQB="{ND}" FNB="{ND}" GNB="0" YMB="0" ZMB="0"/>
+					<NOTICES TGB="0" UGB="0"/>
+					<WORST JQB="{ND}" TZB="{ND}"/>
+					<HCDELQ DAC="0" EAC="{ND}" FAC="{ND}"/>
+				</OWN>
+				<CAMEO2006>
+					<MAIN CSB="{ND}" FWB="{ND}" GCB="{ND}" HCB="{ND}" ICB="{ND}" KCB="{ND}" MOB="{ND}" NOB="13" OOB="{ND}" TRB="{ND}" URB="6" VRB="3" WRB="6"/>
+					<AGE DSB="{ND}" ESB="{ND}"/>
+					<TENURE FSB="{ND}" GSB="13"/>
+					<HHCOMP HSB="{ND}" LCB="{ND}"/>
+					<ECONOMIC MCB="{ND}" NCB="{ND}"/>
+					<LIFESTAGE OCB="{ND}" PCB="{ND}"/>
+					<SOCIAL DDB="{ND}" EDB="{ND}" FDB="{ND}" GDB="{ND}"/>
+					<OCCUPATION QCB="{ND}" RCB="{ND}"/>
+					<MORTGAGE XCB="{ND}" YCB="{ND}"/>
+					<SHAREHLD SCB="{ND}" TCB="{ND}" UCB="{ND}" VCB="{ND}" WCB="{ND}"/>
+					<UNEMPLOY ADB="{ND}" BDB="{ND}" CDB="{ND}" HDB="{ND}" IDB="{ND}" ZCB="{ND}"/>
+					<UNEMPRATE HWB="{ND}" IWB="{ND}" JWB="{ND}" KWB="{ND}" LWB="{ND}"/>
+					<PROPERTY GWB="{ND}" ISB="{ND}" JDB="{ND}" JSB="{ND}" KDB="{ND}" KSB="{ND}" LDB="{ND}" LSB="{ND}" MDB="{ND}" MSB="{ND}" NDB="{ND}" NSB="{ND}" ODB="{ND}" OSB="{ND}" PSB="{ND}" QSB="{ND}" RSB="{ND}" SSB="{ND}" TSB="{ND}" USB="{ND}"/>
+					<INTERNATIONAL PDB="{ND}"/>
+				</CAMEO2006>
+				<SEARCH>
+					<MAIN UDB="1"/>
+					<DEBTCOLL KEB="0" LEB="0" MEB="0" NEB="0" OEB="0" PEB="0"/>
+					<ALLCA FQC="{ND}" GQC="{ND}" QEB="1" REB="1" SEB="1" TEB="1" UEB="1" YGC="1"/>
+					<OWNCA VEB="0" WEB="0" XEB="0" YEB="0" ZEB="0"/>
+					<HOMECREDIT MFB="0" NFB="0" OFB="0" PFB="0" QFB="0" RFB="0"/>
+					<TELECOM XGC="{ND}"/>
+					<PAYDAY DJC="0" EQC="{ND}" NIC="0" OIC="0" PIC="0" QIC="0"/>
+					<PAYDAY_QS HQC="{ND}" IQC="{ND}" JQC="{ND}" KQC="{ND}" NQC="{ND}" OQC="{ND}"/>
+					<PAYDAY_AM PQC="{ND}" QQC="{ND}" RQC="{ND}" SQC="{ND}" TQC="{ND}" UQC="{ND}"/>
+					<ALL_AM ARC="{ND}" VQC="{ND}" WQC="{ND}" XQC="{ND}" YQC="{ND}" ZQC="{ND}"/>
+					<INSURANCE BRC="{ND}" CRC="{ND}" DRC="{ND}" ERC="{ND}" FRC="{ND}" GRC="{ND}"/>
+				</SEARCH>
+				<ADDRLINK>
+					<ADDMAIN NBC="{ND}" VGB="1" WGB="1" ZAC="{ND}"/>
+					<ADDRAW AHB="{ND}" BHB="{ND}" CHB="{ND}" DHB="{ND}" EHB="{ND}" FHB="{ND}" GHB="{ND}" JBB="{ND}" QOB="{CCA76CD9-B522-4DAF-85C6-878149E03D03}" ROB="{ND}" SOB="{ND}" TOB="{ND}" XGB="28,CROSS ROAD,SOUTHAMPTON,SO19 4BW" YGB="M" ZGB="{ND}"/>
+					<ADDTIME HHB="2015-06-01" IHB="{ND}" JHB="{ND}" KHB="{ND}" LHB="{ND}"/>
+					<NOTICES XPB="0" YPB="0"/>
+				</ADDRLINK>
+				<ASSLINK>
+					<MAIN VOB="0" WOB="0" XOB="0"/>
+					<DECASSRAW APB="{ND}" BPB="{ND}" CPB="{ND}" DPB="{ND}" EPB="{ND}" FPB="{ND}" GPB="{ND}" HPB="{ND}" YOB="{ND}" ZOB="{ND}"/>
+					<UNDECASSRAW IPB="{ND}" JPB="{ND}" KPB="{ND}" LPB="{ND}" MPB="{ND}" NPB="{ND}" OPB="{ND}" PPB="{ND}" QPB="{ND}" RPB="{ND}"/>
+					<NOTICES AQB="0" ZPB="0"/>
+				</ASSLINK>
+				<ICH>
+					<PUBLIC FQB="0" GQB="0" NQB="0"/>
+					<SHARE HQB="{ND}" IQB="{ND}"/>
+				</ICH>
+			</APPLICANT>
+		</BSB>
+	</SearchResult>
+</Search07aResponse>
